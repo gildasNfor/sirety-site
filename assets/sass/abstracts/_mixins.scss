@@ -1,0 +1,78 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass mixins.
+// -----------------------------------------------------------------------------
+/// Event wrapper
+/// @author Harry Roberts
+/// @param {Bool} $self [false] - Whether or not to include current selector
+/// @link https://twitter.com/csswizardry/status/478938530342006784 Original tweet from Harry Roberts
+@mixin on-event($self: false) {
+    @if $self {
+        &,
+        &:hover,
+        &:active,
+        &:focus {
+            @content;
+        }
+    }
+    @else {
+        &:hover,
+        &:active,
+        &:focus {
+            @content;
+        }
+    }
+}
+
+/// Make a context based selector a little more friendly
+/// @author Hugo Giraudel
+/// @param {String} $context
+@mixin when-inside($context) {
+    #{$context} & {
+        @content;
+    }
+}
+
+@mixin transition {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+@mixin font-size($mobile, $tablet, $desktop) {
+    font-size: #{$desktop};
+    @include mq($until: desktop) {
+        font-size: #{$tablet};
+    }
+    @include mq($until: tablet) {
+        font-size: #{$mobile};
+    }
+}
+
+@mixin line-height($mobile, $tablet, $desktop) {
+    line-height: #{$desktop};
+    @include mq($until: desktop) {
+        line-height: #{$tablet};
+    }
+    @include mq($until: tablet) {
+        line-height: #{$mobile};
+    }
+}
+
+// Mixin for image aspect ratio issue 
+@mixin aspect-ratio($width, $height) {
+    position: relative;
+    width: 100%;
+    padding-top: $height / $width * 100%;
+    >*:first-child {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}

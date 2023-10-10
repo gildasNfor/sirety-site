@@ -1,0 +1,93 @@
+@mixin display-property {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@mixin display-grid-property {
+    display: grid;
+}
+
+@mixin backgroud-property {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section {
+    width: 100%;
+    margin: 0 auto; 
+}
+
+.section {
+    &__background {
+
+    }
+    &__container {
+        width: 100%;
+        max-width: $max-width;
+        padding: 0 $spacing-lg-x;
+        margin: 0 auto;
+        @include mq($until: wide-desktop) {
+            padding: 0 $spacing-md;
+        }
+        @include mq($until: tablet) {
+            padding: 0 $spacing-sm;
+        }
+    }
+}
+
+
+.col {
+    &-1-of-4 {
+        width: calc(100% / 4);
+        @include mq($until: tablet) {
+            width: calc(100% / 2);
+        }
+        @include mq($until: tablet) {
+            width: 100%;
+        }
+    }
+    &-1-of-2 {
+        width: calc(100% / 2);
+        @include mq($until: tablet) {
+            width: calc(100% / 2);
+        }
+        @include mq($until: tablet) {
+            width: 100%;
+        }
+    }
+}
+
+//Mobile column fifty fifty
+.mobile {
+    @include mq(mobile, tablet) {
+        &--two-columns {
+            flex-direction: row;
+        }
+        &-section--column {
+            width: 50%;
+        }
+    }
+}
+
+.bg-color {
+    &-black {
+        background-color: $color-primary;
+        @include mq($until: desktop) {
+            overflow: hidden;
+        }
+    }
+    &-white {
+        background-color: $color-white;
+    }
+    &-grey-dark {
+        background-color: $color-primary;
+    }
+    &-grey {
+        &--light {
+            background-color: $color-primary;
+        }
+        &--dark {
+            background-color: $color-primary;
+        }
+    }
+}

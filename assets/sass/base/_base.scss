@@ -1,0 +1,158 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+/**
+ * Set up a decent box model on the root element
+ */
+
+html {
+    box-sizing: border-box;
+    margin-top: 0 !important;
+    overflow-y: scroll;
+    background-color: $color-background;
+    // scroll-behavior: smooth;
+}
+
+.page-template-portal {
+    opacity: 0;
+}
+
+
+/**
+ * Make all elements from the DOM inherit from the parent box-sizing
+ * Since `*` has a specificity of 0, it does not override the `html` value
+ * making all elements inheriting from the root box-sizing value
+ * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+ */
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/**
+ * Body Styles
+*/
+
+body {
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/**
+ * Sets Page to grow to fill body, forcing footer to the bottom
+ */
+
+.page {
+    flex-grow: 1;
+    position: relative;
+}
+
+/**
+ * Basic styles for links
+ */
+a {
+    &:hover {
+        color: $link-hover;
+    }
+}
+
+/**
+ * Basic styles for lists
+*/
+
+ul {
+    margin: 0;
+    padding: 0;
+    li {
+        list-style: none;
+        padding-bottom: 10px;
+        padding-left: 15px;
+        position: relative;
+    }
+}
+
+
+/**
+ * Basic styles for img
+*/
+
+img,
+.img {
+    height: auto;
+    max-width: 100%;
+    &--full-width {
+        width: 100%;
+    }
+}
+
+ul {
+    > li {
+        color: $color-text;
+        padding: 0px 0 4px 24px;
+        &::before {
+            content: "";
+            position: absolute;
+            top: 7px;
+            left: 0;
+            display: inline-block;
+            background-image: url('../img/SVG/bullet.svg');
+            background-size: contain;
+            width: 14px;
+            height: 14px;
+        }
+    }
+}
+
+ol {
+    padding: 0 0 0 20px;
+    li {
+        list-style: inherit;
+        // list-style-position: inside;
+        padding-bottom: 4px;
+    }
+}
+
+.animate__animated {
+    opacity: 0;
+}
+
+.hide-mobile, .footer__social-icon.hide-mobile {
+    @include mq($until: desktop) {
+        display: none;
+    }
+}
+.hide-desktop, .footer__social-icon.hide-desktop {
+    @include mq($from: desktop) {
+        display: none;
+    }
+}
+
+.germany-site .eng-text {
+	display: none;
+}
+.germany-site .french-text {
+	display: none;
+}
+.eng-site .french-text {
+	display: none;
+}
+.eng-site .germany-text {
+	display: none;
+}
+.french-site .eng-text {
+	display: none;
+}
+.french-site .germany-text {
+	display: none;
+}

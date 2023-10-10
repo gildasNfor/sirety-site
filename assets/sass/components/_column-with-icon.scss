@@ -1,0 +1,200 @@
+.section {
+    &--column-with-icon {
+        .section {
+            &__background {
+                background-color: #FFFFFF; 
+                padding: 50px 0px 36px;
+                @include mq($until: tablet) {
+                    padding: 23px 0px 30px;
+                }
+            }
+        }
+    }
+}
+.column-with-icon {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    h3 {
+        @include line-height(36px, 36px, 36px);
+        margin: 0 0 17px;
+        @include mq($until: tablet) {
+            text-align: center;
+            margin: 0 0 3px;
+        }
+    }
+    p {
+        @include font-size(16px, 16px, 16px);
+	    @include line-height(28px, 28px, 28px);
+        color: #667085;
+        max-width: 712px;
+        @include mq($until: tablet) {
+            text-align: center;
+            margin: 0 0 40px;
+        }
+    }
+    &__holder {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    &__view-product {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+        margin: 0 0 30px;
+        @include mq($until: tablet) {
+            justify-content: flex-start;
+            margin: 0 0 24px;
+        }
+        a {
+            font-family: $secondary-font-stack;
+            @include font-size(18px, 20px, 20px);
+	        @include line-height(10px, 12px, 12px);
+            display: flex;
+            color: #028193;
+            position: relative;
+            @include mq($until: tablet) {
+                display: flex;
+                align-items: center;
+            }
+            &:hover {
+                color: #15C3DC;
+                img.hover-img {
+                    opacity: 1;
+                }
+            }
+
+            img {
+                height: 14px;
+                width: 8.8px;
+                margin-left: 8px;
+                &.hover-img {
+                    position: absolute;
+                    right: 0;
+                    opacity: 0;
+                    transition: all 0.3s ease-in-out;
+                }
+            }
+        }
+    }
+    &__tiles {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        padding: 0px 18px;
+        margin: -12.5px -25px;
+        @include mq($until: tablet) {
+            padding: 0px 0px;
+            margin: 0;
+        }
+        &.desktop-hide {
+            @include mq($from: tablet) {
+                display: none;
+            }
+        }
+        &.mobile-hide {
+            @include mq($until: tablet) {
+                display: none;
+            }
+        }
+    }
+    &__tile-item {
+        display: flex;
+        width: calc(100% * (1 / 3) - 18px);
+        margin: 12.5px 9px 12.5px;
+        background-color: #F6F6F6;
+        border-radius: 5px;
+        padding: 0;
+        @include mq($until: desktop) {
+            width: calc(100% * (1 / 2) - 18px);
+        }
+        @include mq($until: tablet) {
+            width: 100%;
+            margin: 0 0 15px;
+            &:nth-child(1), &:nth-child(3) {
+                width: calc(100% * (1 / 2) - 10px);
+                margin-right: 10px;
+            }
+            &:nth-child(2), &:nth-child(4) {
+                width: calc(100% * (1 / 2) - 0px);
+            }
+        }
+        @include mq($until: mobile-extra-small) {
+            &:nth-child(1), &:nth-child(3) {
+                width: 100%;
+                margin-right: 0;
+            }
+            &:nth-child(2), &:nth-child(4) {
+                width: 100%;
+            }
+        }
+        
+        a {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            padding: 12px 38px 11px 18px;
+            @include mq($until: tablet) {
+                padding: 8px 12px 8px 12px;
+            }
+            &:hover {
+                background-color: #028193;
+                border-radius: 5px;
+                .title {
+                    color: $color-white;
+                }
+                .view {
+                    opacity: 0;
+                }
+            }
+            .icon {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: $color-white;
+                border-radius: 50%;
+                width: 60px;
+                height: 60px;
+                margin-right: 13px;
+                @include mq($until: tablet) {
+                    width: 36.41px;
+                    height: 36.41px;
+                    margin-right: 2px;
+                }
+                img {
+                    object-fit: contain;
+                    @include mq($until: tablet) {
+                        width: 20px;
+                        height: 20px;
+                    }
+                }
+            }
+            h4 {
+                font-family: $primary-font-stack;
+                font-weight: 500;
+                color: #002C32;
+                margin-right: 10px;
+                transition: all 0.3s ease-in-out;
+                @include mq($until: desktop) {
+                    margin-right: 8px;
+                }
+                @include mq($until: tablet) {
+                    margin-right: 2px;
+                }
+                // &:hover {
+                //     color: #15C3DC;
+                // }
+            }
+            .view {
+                display: flex;
+                margin-left: auto;
+                @include mq($until: tablet) {
+                    height: 14px;
+                    width: 7.54px;
+                }
+            }
+        }
+    }
+}

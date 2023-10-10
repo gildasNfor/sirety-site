@@ -1,0 +1,160 @@
+/**
+ * Basic typography style for copy text
+ */
+    
+    
+ body {
+    color: $color-primary;
+    font: normal 125% / 1.4 $primary-font-stack;
+    word-break: break-word; 
+}   
+    
+@mixin heading-dark { 
+    font-family: $heading-font-stack;
+    font-weight: 700; 
+    color: $color-text-dark;    
+}  
+    
+@mixin heading {    
+    font-family: $heading-font-stack;
+    font-weight: 700; 
+    color: $color-primary;
+}
+  
+@mixin lead {
+    font-family: $primary-font-stack;
+    color: $color-text;
+}
+    
+
+/* First Paragraph that is larger than rest of content */
+    
+.lead {
+    font-size: 16px;
+    @include line-height(28px, 30px, 30px);
+    a {
+        font-size: inherit;
+        line-height: inherit;
+    }
+}
+    
+a {
+    font-family: $primary-font-stack;
+    @include font-size(18px, 18px, 18px);
+	@include line-height(22px, 22px, 22px);
+    color: $color-primary;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        color: $link-hover;
+    }
+}
+     
+h1,
+.h1 {
+    @include heading;
+	@include font-size(24px, 48px, 48px);
+	@include line-height(34px, 70px, 70px);
+}
+    
+h2,
+.h2 {
+    @include heading;
+	@include font-size(22px, 40px, 40px);
+	@include line-height(130%, 130%, 130%);
+}
+    
+h3,
+.h3 {
+    @include heading;
+	@include font-size(24px, 36px, 36px);
+	@include line-height(34px, 46px, 46px);
+}
+    
+h4,
+.h4 {
+    @include heading;
+	@include font-size(16px, 24px, 24px);
+	@include line-height(14px, 32px, 32px);
+}
+
+h5,
+.h5 {
+    @include heading;
+	@include font-size(16px, 16px, 16px);
+	@include line-height(32px, 32px, 32px);
+}
+
+h6,
+.h6 {
+    @include heading;
+	@include font-size(13px, 13px, 13px);
+	@include line-height(22px, 22px, 22px);
+}
+    
+h1.h2,
+h3,
+h4,
+h5,
+h6,
+p,
+li {
+    a {
+        font-size: inherit;
+        font-family: inherit;
+        color: inherit;
+        line-height: inherit;
+        text-decoration: inherit;
+    }
+}
+    
+b,
+strong {
+    font-weight: bolder;
+    font-family: $heading-font-stack;
+}
+    
+li {
+    font-size: 16px;
+    line-height: 28px;
+}
+    
+label {
+    font-family: $address-font-stack;
+    font-size: 18.4658px;
+    line-height: 25px;
+    color: $color-text-dark;
+    margin: 0 0 23px;
+    @include mq($until: tablet) {
+        font-family: $secondary-font-stack;
+        font-size: 18px;
+        line-height:21px;
+        margin: 0 0 18px;
+    }
+}
+p {
+    font-size: 14px;
+    line-height: 28px;
+    color: $color-secondary-light;
+}
+blockquote,
+.blockquote,
+blockquote p {
+    margin: 0;
+    font-family: $heading-font-stack;
+    font-size: 25px;
+    line-height: 27px;
+}
+.navbar-item {
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    color: $color-white;
+    @include mq($until: desktop) {
+        font-weight: 400;
+        color: #002C32;
+    }
+}
+/**
+* Animations
+**/

@@ -1,0 +1,400 @@
+body.home {
+    header {
+        position: absolute;
+        top: 0;
+        background-color: transparent;
+        width: 100%;
+        z-index: 99;
+        @include mq($until: desktop) {
+            background-color: $color-primary;
+            z-index: 99;
+        }
+        &::after, &::before {
+            display: none;
+        }
+    }
+}
+
+header {
+    background-color: #0A4148;
+    position: relative;
+    // overflow: hidden;
+    @include mq($until: desktop) {
+        background-color: $color-primary;
+        z-index: 99;
+    }
+    &::after, &::before {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 0;
+        pointer-events: none;
+        @include mq($until: desktop) {
+            display: none;
+        }
+    }
+    &::before {
+        width: 306.28px;
+        height: 611.15px;
+        background: radial-gradient(112.33% 74.7% at 112.34% 25.75%, #AB3200 0%, #932B00 11%, #541800 42%, #260B00 68%, #0A0300 88%, #000000 100%);
+        background-blend-mode: screen;
+        mix-blend-mode: screen;
+    }
+    &::after {
+        width: 568.24px;
+        height: 969.86px;
+        background: radial-gradient(127.27% 60.54% at 127.37% 40.86%, #AB3200 0%, #932B00 11%, #541800 42%, #260B00 68%, #0A0300 88%, #000000 100%);
+        background-blend-mode: color-dodge;
+        mix-blend-mode: color-dodge;
+    }
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1640px; 
+    padding: 30px 106px;
+    margin: 0 auto;
+    @include mq($until: wide-desktop) {
+        padding: 30px 40px;
+    }
+    @include mq($until: desktop) {
+        padding: 20px 40px;
+    }
+    @include mq($until: tablet) {
+        padding: 14px 16px;
+    }
+    &.is-active {
+        .navbar {
+            &__menu-holder {
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    }
+    &__brand {
+        display: flex;
+        width: 25%;
+        @include mq($until: wide) {
+            width: 20%;
+        }
+        @include mq($until: desktop) {
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+    }
+    &__menu-holder {
+        display: flex;
+        justify-content: space-between;
+        width: 75%;  
+        @include mq($until: wide) {
+            width: 80%;
+        }
+        @include mq($until: desktop) {
+            position: fixed;
+            left: 0;
+            top: 90px;
+            align-items: flex-start;
+            justify-content: start;
+            flex-direction: column;
+            background-color: #FFF;
+            width: 100%;
+            height: auto;
+            opacity: 0;
+            visibility: hidden;
+            box-shadow: 0px 4px 23px rgba(36, 36, 36, 0.25);
+            z-index: 9;
+            transition: 0.3s ease-in-out;
+            // display: none;
+        }
+        @include mq($until: tablet) {
+            top: 69px;
+        }
+    }
+    &__logo {
+        display: flex;
+        img {
+            width: 183px;
+            height: auto;
+            object-fit: contain;
+            @include mq($until: tablet) {
+                width: 151px;
+            }
+        }
+    }
+    &__menu {
+        display: flex;
+        border: 1px solid rgba(255, 255, 255, 0.38);
+        border-radius: 121px;
+        padding: 17px 29px 17px;
+        @include mq($until: desktop) {
+            // display: none;
+            border: none;
+            border-radius: 0;
+            padding: 22px 20px 0;
+            width: 100%;
+            height: auto;
+        }
+        @include mq($until: tablet) {
+            padding: 22px 20px 0;
+        }
+        .navbar-item {
+            transition: text-fill-color 2s ease-in-out, background-color 2s ease-in-out, background-clip 2s ease-in-out;
+            &:hover, &.navbar-active {
+                background: linear-gradient(to right, #15DFEA, #FF5E52);
+                -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
+                @include mq($until: desktop) {
+                    background: unset;
+                    -webkit-text-fill-color: unset;
+                    -webkit-background-clip: unset;
+                    color: $link-hover;
+                }
+            }
+        }
+
+        .sub-menu {
+            position: relative;
+            @include mq($until: desktop) {
+                display: flex;
+                align-items: flex-start;
+                flex-direction: column;
+            }
+            &--active {
+                .sub-menu__holder {
+                    opacity: 1;
+                    visibility: visible;
+                    @include mq($until: desktop) {
+                        display: flex;
+                    }
+                }
+            }
+            // &:hover {
+            //     .sub-menu__holder {
+            //         opacity: 1;
+            //         visibility: visible;
+            //         @include mq($until: desktop) {
+            //             display: block;
+            //         }
+            //     }
+            // }
+            &__holder {
+                position: absolute;
+                top: 30px;
+                left: 0;
+                padding: 10px 10px;
+                min-width: 200px;
+                background-color: #0A4148;
+                box-shadow: 0px 4px 23px rgba(36, 36, 36, 0.25);
+                opacity: 0;
+                visibility: hidden;
+                z-index: 9999;
+                transition: 0.3s ease-in-out;
+                @include mq($until: desktop) {
+                    position: relative;
+                    top: 9px;
+                    padding: 0 0 10px;
+                    background-color: transparent;
+                    box-shadow: none;
+                    display: none;
+                }
+                ul {
+                    li {
+                        padding: 0 0 15px;
+                        @include mq($until: desktop) {
+                            border: none;
+                            padding: 0 0 11px;
+                            margin: 0;
+                        }
+                        &:last-child {
+                            padding: 0;
+                        }
+                        a {
+                            @include mq($until: desktop) {
+                                color: $color-text;
+                            }
+                            &::after {
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &__start { 
+        display: flex;
+        @include mq($until: desktop) {
+            flex-direction: column;
+            width: 100%;
+        }
+        li {
+            display: flex;
+            padding: 0 45px 0px 0px;
+            @include mq($until: wide-desktop) {
+                padding: 0 25px 0px 0px;
+            }
+            @include mq($until: desktop) {
+                padding: 0 0 18px;
+                margin: 0 0 12px;
+                border-bottom: 1px solid #E8E8E8;
+            }
+            &:last-child {
+                padding: 0;
+                @include mq($until: desktop) {
+                    border-bottom: none;
+                }
+            }
+            &::before {
+                display: none;
+            }
+            &.dropdown {
+                a {
+                    position: relative;
+                    &::after {
+                        content: "";
+                        background-image: url("../img/down-arrow.svg");
+                        background-size: contain;
+                        background-repeat: no-repeat; 
+                        position: absolute;
+                        right: -20px;
+                        top: 8px;
+                        height: 14px;
+                        width: 14px;
+                        @include mq($until: desktop) {
+                            background-image: url("../img/down-arrow-dark.svg");
+                        } 
+                    }
+                }
+            }
+        }
+    }
+    &__right {
+        display: flex;
+        align-items: center;
+        @include mq($until: desktop) {
+            // display: none;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 22px 20px 26px;
+            width: 100%;
+        }
+        // @include mq($until: tablet) {
+        //     justify-content: center;
+        //     width: 100%;
+        //     padding: 22px 20px 26px;
+        // }
+    } 
+    &__lng {
+        display: flex;
+        margin-right: 28px;
+        position: relative;
+        @include mq($until: wide-desktop) {
+            margin-right: 8px;
+        }
+        @include mq($until: desktop) {
+            display: none;
+            margin: 0 0 20px;
+        }
+        a {
+            display: flex;
+            align-items: center;
+            @include font-size(18.6669px, 18.6669px, 18.6669px);
+	        @include line-height(24px, 24px, 24px);
+            color: $color-white;
+            img {
+                width: 16px;
+                height: 16px;
+                margin-left: 8.66px;
+            }
+        }
+
+        .lng {
+            &__holder {
+                position: absolute;
+                top: 30px;
+                left: 0;
+                padding: 10px 10px;
+                min-width: 115px;
+                background-color: #0A4148;
+                box-shadow: 0px 4px 23px rgba(36, 36, 36, 0.25);
+                opacity: 0;
+                visibility: hidden;
+                z-index: 9999;
+                transition: 0.3s ease-in-out;
+                border-radius: 10px;
+                ul {
+                    li {
+                        padding: 0px 0 4px 0px;
+                        &::before {
+                            display: none;
+                        }
+                        a {
+                            &:hover {
+                                opacity: 0.5;
+                            }
+                        }
+                    }
+                }
+            }
+            &__active {
+                opacity: 1;
+                visibility: visible;
+            }
+        }
+    } 
+    &__login {
+        display: flex;
+        @include mq($until: desktop) {
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+        a {
+            line-height: 12px;
+            color: $color-white;
+            background-color: rgba(255, 255, 255, 0.26);
+            backdrop-filter: blur(16px);
+            border-radius: 6px;
+            padding: 15px 26.5px;
+            @include mq($until: desktop) {
+                font-size: 16px;
+                line-height: 12px;
+                text-align: center;
+                color: $color-white;
+                background-color: $color-primary-dark;
+                padding: 18px 30px;
+                width: 100%;
+            }
+            &:hover {
+                color: $color-white;
+                @include mq($until: desktop) {
+                    background-color: $link-hover;
+                }
+            }
+        }
+    }
+    .hamburger {
+        width: 40px;
+        min-width: auto;
+        height: 40px;
+        border-radius: 8px;
+        background-color: #E4F6FF;
+        padding: 0;
+        @include mq($from: desktop) {
+            display: none;
+        }
+        &--collapse {
+            .hamburger-inner {
+                width: 14px;
+            }
+            &.is-active {
+                .hamburger-inner {
+                    width: 19.29px;
+                }
+            }
+        }
+    }
+}

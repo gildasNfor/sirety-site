@@ -1,0 +1,179 @@
+.section {
+    &--service-banner {
+        overflow: hidden;
+        .section {
+            &__background {
+                display: flex;
+                background: linear-gradient(262.4deg, #CBDAFF 0.63%, rgba(252, 236, 255, 0.58) 100%);
+                width: 100%;
+                min-height: 383px;
+                position: relative;
+                @include mq($until: tablet) {
+                    min-height: 325px;
+                }
+            }
+            &__container {
+                
+            }
+        }
+    }
+}
+
+.service-banner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    max-width: 850px;
+    margin: 72px auto 0;
+    position: relative;
+    z-index: 9;
+    @include mq($until: tablet) {
+        max-width: 320px;
+        margin: 29px auto 28px;
+    }
+
+    h3 {
+        @include line-height(32px, 52px, 52px);
+        margin: 0 0 2px;
+        @include mq($until: tablet) {
+            letter-spacing: -0.011em;
+            margin: 0 0 6px;
+        }
+    }
+    p {
+        @include line-height(26px, 26px, 26px);
+        margin: 0 0 32px;
+        max-width: 611px;
+        @include mq($until: tablet) {
+            font-family: $secondary-font-stack;
+            font-size: 16px;
+            line-height: 28px;
+            color: #002C32;
+            margin: 0 0 14px;
+            max-width: 450px;
+        }
+    }
+    a {
+        &.button {
+            min-width: 247px;
+            @include mq($until: tablet) {
+                min-width: 151px;
+                padding: 15px 30px;
+            }
+        }
+    }
+
+    &__layer-img4 {
+        display: flex;
+        position: relative;
+        bottom: 10px;
+        right: -224px;
+        @include mq($until: tablet) {
+            display: none;
+        }
+    }
+    &__layer-left {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 25%;
+        height: 100%;
+        pointer-events: none;
+        @include mq($until: tablet) {
+            width: 28%;
+        }
+    }
+    &__layer-img1 {
+        position: absolute;
+        top: 43px;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        text-align: center;
+        @include mq($until: tablet) {
+            display: flex;
+            top: 25px;
+            right: auto;
+            left: 16px; 
+        }
+        img {
+            @include mq($until: tablet) {
+                width: 62px;
+                height: 40px;
+                object-fit: contain;
+            }
+        }
+    }
+    &__layer-img2 {
+        position: absolute;
+        bottom: 40px;
+        left: 43px;
+        @include mq($until: tablet) {
+            display: flex;
+            bottom: 87px;
+            left: 0;
+        }
+        img {
+            @include mq($until: tablet) {
+                width: 100px;
+                height: 121px;
+                object-fit: contain;
+            }
+        }
+    }
+    &__layer-img3 {
+        position: absolute;
+        bottom: 83px;
+        right: -20px;
+        @include mq($until: tablet) {
+            display: flex;
+            bottom: 28px;
+            right: 8px;
+        }
+        img {
+            @include mq($until: tablet) {
+                width: 31px;
+                height: 38px;
+                object-fit: contain;
+            }
+        }
+    }
+    &__layer-right {
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: 25%;
+        height: 100%;
+        pointer-events: none;
+        @include mq($until: tablet) {
+            width: 36%;
+        }
+    }
+    &__layer-img5 {
+        position: absolute;
+        bottom: 77px;
+        left: 65px;
+        @include mq($until: tablet) {
+            display: none;
+        }
+    }
+    &__layer-img6 {
+        position: absolute;
+        right: 0;
+        top: 72px;
+        @include mq($until: tablet) {
+            display: flex;
+            top: 65px;
+            right: -8px;
+        }
+        img {
+            @include mq($until: tablet) {
+                width: 141px;
+                height: 107px;
+                object-fit: contain;
+            }
+        }
+    }
+}

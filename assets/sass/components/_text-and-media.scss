@@ -1,0 +1,130 @@
+.section {
+    &--text-and-media {
+        .section {
+            &__background {
+                background-color: #fff;
+                padding: 90px 0 45px;
+                @include mq($until: tablet) {
+                    padding: 30px 0 15px;
+                }
+            }
+            &__container {
+
+            }
+        }
+    }
+}
+
+.text-and-media {
+    display: flex;
+    justify-content: space-between;
+    @include mq($until: desktop) {
+        flex-direction: column-reverse;
+    }
+
+    &__column {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        @include mq($until: desktop) {
+            width: 100%;
+        }
+        h3 {
+            margin: 0 0 10px;
+            @include line-height(34px, 60px, 60px);
+            @include mq($until: tablet) {
+                letter-spacing: -0.011em;
+                color: #3C3C3C;
+                margin: 0 0 2px;
+            }
+        }
+        p {
+            @include font-size(16px, 16px, 16px);
+	        @include line-height(30px, 30px, 30px);
+            margin: 0 0 30px;
+            max-width: 568px;
+            @include mq($until: desktop) {
+                max-width: 100%;
+            }
+            @include mq($until: tablet) {
+                margin: 0 0 12px;
+            }
+        }
+
+        &.column-text {
+            align-items: flex-start;
+            margin-right: 20px;
+            @include mq($until: desktop) {
+                margin-right: 0;
+            }
+
+        }
+
+        &.column-media {
+            align-items: flex-end;
+            @include mq($until: tablet) {
+                margin: 0 0 36px;
+            }
+            img {
+                object-fit: contain;
+                background: linear-gradient(180deg, #E3FAFF 0%, rgba(254, 241, 227, 0) 100%);
+                border-radius: 20px 20px 0px 0px;
+                width: 100%;
+                max-width: 571px;
+                @include mq($until: desktop) {
+                    max-width: 100%;
+                }
+                @include mq($until: tablet) {
+                    background: linear-gradient(180deg, #E3FAFF 0%, rgba(254, 241, 227, 0) 100%);
+                    border-radius: 12.4343px 12.4343px 0px 0px;
+                }
+            }
+
+        }
+    }
+    &__icons-holder {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 0 35px;
+        max-width: 551px;
+        @include mq($until: tablet) {
+            flex-direction: column;
+            margin: 0 0 38px;
+        }
+    }
+    &__icon {
+        display: flex;
+        margin-right: 20px;
+        @include mq($until: tablet) {
+            margin: 0 0 15px;
+        }
+        &:last-child {
+            margin: 0;
+        }
+        .icon {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 38px;
+            height: 38px;
+            border-radius: 50%;
+            margin-right: 14px;
+        }
+        .online-support {
+            background-color: #FFEBD8;
+        }
+        .agent-help {
+            background-color: #DEFFEC;
+        }
+        .customizing {
+            background-color: #EEE2FF;
+        }
+
+        .icone-text {
+            font-family: $secondary-font-stack;
+            @include font-size(18px, 18px, 18px);
+	        @include line-height(30px, 30px, 30px);
+            color: #667085;
+        }
+    }
+}

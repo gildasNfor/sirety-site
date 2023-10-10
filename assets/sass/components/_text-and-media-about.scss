@@ -1,0 +1,81 @@
+.section {
+    &--text-and-media-about {
+        .section {
+            &__background {
+                display: flex;
+                background-color: #fff;
+                padding: 90px 0;
+                @include mq($until: tablet) {
+                    padding: 32px 0;
+                }
+            }
+        }
+    }
+}
+
+.text-media-about {
+    display: flex;
+    justify-content: space-between;
+    @include mq($until: tablet) {
+        flex-direction: column;
+    }
+    &__media {
+        width: 50%;
+        display: flex;
+        max-width: 447.02px;
+        margin-right: 15px;
+        @include mq($until: tablet) {
+            width: 100%;
+            max-width: 100%;
+            margin: 0 0 42px;
+        }
+        img {
+            display: flex;
+            object-fit: contain;
+            width: 100%;
+            height: 100%;
+        }
+    }
+    &__text {
+        width: 50%;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        max-width: 574.26px;
+        @include mq($until: tablet) {
+            width: 100%;
+            max-width: 100%;
+        }
+        h3 {
+            @include font-size(24px, 36px, 36px);
+	        @include line-height(34px, 50px, 50px);
+            letter-spacing: -0.011em;
+            margin: 0 0 5px;
+            @include mq($until: tablet) {
+                margin: 0 0 8px;
+            }
+        }
+        p {
+            @include font-size(16px, 14px, 14px);
+            @include line-height(30px, 30px, 30px);
+            margin: 0 0 25px;
+            @include mq($until: tablet) {
+                margin: 0 0 23px;
+            }
+        }
+    }
+    &__tag {
+        @include font-size(16px, 16px, 16px);
+	    @include line-height(12px, 12px, 12px);
+        font-weight: 600;
+        color: #028193;
+        background-color: #E5F9FB;
+        border-radius: 6px;
+        padding: 12px 19px;
+        margin: 0 0 14px;
+        @include mq($until: tablet) {
+            font-weight: 400;
+            margin: 0 0 10px;
+        }
+    }
+}

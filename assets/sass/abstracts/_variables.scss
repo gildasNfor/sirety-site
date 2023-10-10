@@ -1,0 +1,101 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+/**
+ * Colors
+*/
+
+// Primary Colour
+$color-primary: #002C32;
+$color-primary-dark: #028193;
+$color-primary-light: #ECF3FF;
+$color-white: #ffffff;
+
+// Secondary Colour
+$color-secondary: #F06254;
+$color-secondary-light: #667085;
+
+// Text Colour
+$color-text: #667085;
+$color-text-dark: #002C32;
+$color-text-light: #028193;
+$color-input-field: #81838C;
+
+// Background Colour
+$color-background: #EBE7E7; 
+$color-background-dark: #F6F6F6;
+$color-background-light:  rgba(255, 255, 255, 0.9);
+
+// Default Padding
+$spacing-x-sm: 10px;
+$spacing-sm: 20px;
+$spacing-md: 40px;
+$spacing-lg: 80px;
+$spacing-lg-x: 106px;
+
+// Section Container's maximum width
+$max-width: 1640px !default;
+$full-width: 100%;
+$view-port-height: 100vh;
+
+/*Link decoraton*/
+$link-hover: #15C3DC;
+$hide-link-decoration: none;
+
+/**
+ * Fonts
+ */
+
+// Main Font used throughout site.
+$default-font: 'Arial','Helvetica Neue Light','Helvetica Neue','Helvetica','Arial',sans-serif !default;
+$primary-font-stack: 'Inter','Helvetica Neue Light','Helvetica Neue','Helvetica','Arial',sans-serif !default;
+// Main Font for Headings
+$heading-font-stack:'canela_trialbold','Open Sans','Helvetica Neue Light','Helvetica Neue','Helvetica','Arial',sans-serif !default;
+// Roboto Font
+$secondary-font-stack:'Roboto','Helvetica Neue Light','Helvetica Neue','Helvetica','Arial',sans-serif !default;
+// input button
+$input-button: 'PT Sans','Helvetica Neue Light','Helvetica Neue','Helvetica','Arial',sans-serif !default;
+// address font
+$address-font-stack: 'Segoe UI','Helvetica Neue Light','Helvetica Neue','Helvetica','Arial',sans-serif !default;
+/**
+ * Responsive
+ */
+
+$mq-breakpoints: ( mobile-extra-small: 350px, mobile-small: 391px, mobile: 551px, tablet: 768px, desktop: 1025px, // Tweakpoints
+tabletAd: 991px, mobileLandscape: 481px, largest-desktop: 1920px, wide: 1441px, wide-desktop: 1261px,);
+
+/**
+* Navigation
+**/
+
+$navbar-height: 80px;
+//$mq-show-breakpoints: (mobile, mobileLandscape, tablet, desktop, wide);
+$slick-font-path: "./assets/fonts/slick/" !default;
+$slick-font-family: "slick" !default;
+$slick-loader-path: "./" !default;
+$slick-arrow-color: white !default;
+$slick-dot-color: black !default;
+$slick-dot-color-active: $slick-dot-color !default;
+$slick-prev-character: "\2190" !default;
+$slick-next-character: "\2192" !default;
+$slick-dot-character: "\2022" !default;
+$slick-dot-size: 6px !default;
+$slick-opacity-default: 0.75 !default;
+$slick-opacity-on-hover: 1 !default;
+$slick-opacity-not-active: 0.25 !default;
+
+/**
+* Mobile Menu Toggle Settings
+*/
+
+$hamburger-padding-x: 15px;
+$hamburger-padding-y: 15px;
+$hamburger-layer-width: 19.29px;
+$hamburger-layer-height: 2px;
+$hamburger-layer-spacing: 4px;
+$hamburger-layer-color: $color-primary-dark;
+$hamburger-layer-border-radius: 0;
+$hamburger-hover-opacity: 1;
+$hamburger-active-layer-color: $hamburger-layer-color;
+$hamburger-active-hover-opacity: $hamburger-hover-opacity;
