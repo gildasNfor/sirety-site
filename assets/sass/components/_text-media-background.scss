@@ -1,0 +1,210 @@
+.section {
+    &--text-media-background {
+        .section {
+            &__background {
+                display: flex;
+                background-color: rgba(255, 255, 255, 0.9);
+                backdrop-filter: blur(6.5px);
+                background-image: url("../img/text-and-media-about-bg.png");
+                background-size: cover;
+                padding: 70px 0 60px; 
+                @include mq($until: tablet) {
+                    padding: 34px 0 34px;
+                }
+            }
+        }
+    }
+}
+
+.text-media-background {
+    display: flex;
+    justify-content: space-between;
+    @include mq($until: desktop) {
+        flex-direction: column-reverse;
+    }
+    &__text {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        width: 50%;
+        max-width: 584px;
+        @include mq($until: wide-desktop) {
+            width: 40%;
+            margin-right: 20px;
+        }
+        @include mq($until: desktop) {
+            width: 100%;
+            max-width: 100%;
+            margin: 38px 0 0;
+        }
+        h3 {
+            @include font-size(24px, 36px, 36px);
+	        @include line-height(34px, 50px, 50px);
+            letter-spacing: -0.011em;
+            margin: 0 0 7px;
+            @include mq($until: tablet) {
+                margin: 0 0 14px;
+            }
+        }
+        p {
+            @include font-size(16px, 14px, 14px);
+            @include line-height(30px, 30px, 30px);
+            margin: 0 0 25px;
+            max-width: 547px;
+            @include mq($until: tablet) {
+                margin: 0 0 23px;
+                max-width: 100%;
+            }
+        }
+        a {
+            &.button {
+                @include mq($until: tablet) {
+                    padding: 18px 20px;
+                    min-width: 172px;
+                }
+            }
+        }
+    }
+    &__tag {
+        @include font-size(16px, 16px, 16px);
+	    @include line-height(12px, 12px, 12px);
+        font-weight: 600;
+        color: #028193;
+        background: #FFFFFF;
+        border-radius: 6px;
+        padding: 12px 19px;
+        margin: 0 0 14px;
+        @include mq($until: tablet) {
+            margin: 0 0 11px;
+        }
+    }
+    &__media {
+        display: flex;
+        width: 50%; 
+        max-width: 573px;
+        @include mq($until: wide-desktop) {
+            width: 60%;
+            max-width: 650px;
+        }
+        @include mq($until: desktop) {
+            width: 100%;
+            max-width: 100%;
+        }
+    }
+    &__border-gradient {
+        display: flex;
+        width: 182.88px;
+        height: 153px;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    &__img {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        @include mq($until: desktop) {
+            width: 100%;
+        }
+    }
+    &__image {
+        display: flex;
+        padding: 20px 0px 0px 20px;
+        @include mq($until: desktop) {
+            padding: 12px 0px 0px 12px;
+        }
+        img {
+            @include mq($until: desktop) {
+                width: 100%;
+            }
+            @include mq($until: tablet) {
+                width: calc(100% - 30px);
+            }
+        }
+    }
+    &__testimonial {
+        display: flex;
+        position: absolute;
+        bottom: -30px;
+        right: -55px;
+        @include mq($until: desktop) {
+            right: -22px;
+        }
+        @include mq($until: tablet) {
+            right: 10px;
+            bottom: -30px;
+        }
+        .testimonial {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            // border: 5px solid;
+            // border-image-source: linear-gradient(330.48deg, #038D9F 2.32%, #FC6E63 100.03%);
+            // border-image-slice: 1;
+            border-radius: 10px;
+            background: #FFFFFF;
+            box-shadow: 12px 18px 25px #E9E9EA;
+            width: 192px;
+            min-height: 254px;
+            padding: 20px 32px 4px 25px;
+            @include mq($until: tablet) {
+                box-shadow: 7.39267px 11.089px 15.4014px #E9E9EA;
+                min-height: 156.48px;
+                width: 146px;
+                padding: 8px 16px 8px 16px;
+            }
+            &::after {
+                content: "";
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background-image: url("../img/testimonial-bg.png");
+                background-size: 100% 100%;
+                background-repeat: no-repeat;
+            }
+            &__text {
+                display: flex;
+                margin: 0 0 6px;
+                p {
+                    font-size: 13px;
+                    line-height: 22px;
+                    @include mq($until: desktop) {
+                        max-width: 100%;
+                    }
+                    @include mq($until: tablet) {
+                        font-size: 11px;
+                        line-height: 15px;
+                    }
+                }
+            }
+            &__quotation-icon {
+                display: flex;
+                width: 52.49px;
+                height: 41.07px;
+                justify-content: center;
+                margin: 0 0 12px;
+                @include mq($until: tablet) {
+                    width: 32.34px;
+                    height: 25.3px;
+                }
+            }
+            &__signature {
+                display: flex;
+                width: 27.99px;
+                height: auto;
+                @include mq($until: tablet) {
+                    width: 17.24px;
+                }
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+}

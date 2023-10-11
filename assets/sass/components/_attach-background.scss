@@ -1,0 +1,134 @@
+.section {
+    &--attach-background {
+        .section {
+            &__background {
+                background-image: url("../img/attach-background-full.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
+    }
+}
+
+.attach-background {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 60px 0;
+    @include mq($until: desktop) {
+        flex-direction: column;
+    }
+    @include mq($until: tablet) {
+        padding: 40px 0;
+    }
+
+    &__text {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        background-image: url("../img/attach-bakground-overlay.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: rgba(255, 255, 255, 0.68);
+        backdrop-filter: blur(6.5px);
+        width: 55%;
+        max-width: 640px;
+        padding: 50px 60px 76px 45px;
+        margin-left: auto;
+        @include mq($until: desktop) {
+            align-items: center;
+            width: 100%;
+            max-width: 100%;
+            margin: 0 0 14px;
+        }
+        @include mq($until: tablet) {
+            padding: 28px 26px 23px 26px;
+        }
+
+        h2 {
+            letter-spacing: -0.015em;
+            @include mq($until: desktop) {
+                text-align: center;
+                margin: 0 0 22px;
+            }
+            span {
+                color: #028193;
+            }
+        }
+        p {
+            @include font-size(16px, 16px, 16px);
+            @include line-height(28px, 26px, 26px);
+            letter-spacing: -0.015em;
+            color: #252525;
+            padding: 0 0 24px;
+            max-width: 396px;
+            @include mq($until: desktop) {
+                text-align: center;
+                max-width: 100%;
+                padding: 0 0 42px;
+            }
+        }
+    }
+    &__image-holder {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        // align-items: center;
+        width: 55%;
+        @include mq($until: desktop) {
+            width: 100%;
+        }
+    }
+    &__image-top {
+        display: flex;
+        background-image: url("../img/attach-bakground-overlay-right.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: rgba(255, 255, 255, 0.64);
+        backdrop-filter: blur(7.5px);
+        padding: 22px 20px;
+        margin: 0 0 33px;
+        max-width: 730px;
+        height: 233px;
+        width: 52vw;
+        @include mq($until: desktop) {
+            padding: 11px 11px;
+            margin: 0 0 14px;
+            max-width: 100%;
+            height: auto;
+            width: 100%;
+        }
+        img {
+            object-fit: contain;
+            width: 100%;
+            @include mq($until: desktop) {
+                width: 100%;
+            }
+        }
+    }
+    &__image-bottom {
+        display: flex;
+        background-image: url("../img/attach-bakground-overlay-right.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-color: rgba(255, 255, 255, 0.64);
+        backdrop-filter: blur(7.5px);
+        padding: 22px 20px;
+        max-width: 730px;
+        height: 233px;
+        width: 52vw;
+        @include mq($until: desktop) {
+            padding: 11px 11px;
+            max-width: 100%;
+            height: auto;
+            width: 100%;
+        }
+        img {
+            object-fit: contain;
+            width: 100%;
+            @include mq($until: desktop) {
+                width: 100%;
+            }
+        }
+    }
+}

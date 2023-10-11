@@ -1,0 +1,48 @@
+.colors-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.color-box {
+    background-color: $color-background;
+    text-align: center;
+    border-radius: 5px;
+    margin: 20px;
+    @include mq($until: tablet){
+        width: 100%;
+    }
+}
+// .buttons {
+//     display: flex;
+// }
+
+.color {
+    height: 100px; 
+    width: 100%;
+    min-width: 220px;
+}
+
+.background--primary {
+    background-color: $color-primary;
+}
+.background--color-white {
+    background-color: $color-white;
+}
+.background--secondary-ligh {
+    background-color: $color-secondary-light;
+}
+.background--secondary {
+    background-color: $color-secondary;
+}
+.background--color-text {
+    background-color: $color-text;
+}
+.background--color-text-dark {
+    background-color: $color-text-dark;
+}
+.background--color-text-light {
+    background-color: $color-text-light;
+}
+.background--color-background {
+    background-color: $color-background;
+}

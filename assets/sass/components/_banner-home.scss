@@ -1,0 +1,239 @@
+.section {
+    &--home-banner {
+        display: flex;
+        width: 100%;
+        .section {
+            &__background {
+                background-color: #0A4148;
+                position: relative;
+                width: 100%;
+                overflow: hidden;
+            }
+            &__container {
+                position: relative;
+                max-width: 1640px; 
+            }
+        }
+    }
+}
+
+.home-banner {
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    max-height: 858px;
+    min-height: 858px;
+    @include mq($until: desktop) {
+        min-height: 685px;
+    }
+    @include mq($until: tablet) {
+        min-height: 430px;
+        height: 100%;
+    }
+    &__text {
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        margin: 204px 0 0;
+        position: relative;
+        z-index: 9;
+        @include mq($until: desktop) {
+            width: 100%;
+            margin: 150px 0 0;
+            text-align: center;
+            align-items: center;
+        }
+        @include mq($until: tablet) {
+            margin: 90px 0 0;
+        }
+        h1 {
+            letter-spacing: -0.015em;
+            margin: 0;
+            color: #FFFFFF;
+            display: flex;
+            flex-direction: column;
+            @include mq($until: tablet) {
+                margin: 0 0 6px;
+                letter-spacing: -0.011em;
+            }
+            span.gradient-color {
+                background: linear-gradient(90.59deg, #06DFFF 2.25%, #998785 26.25%, #D9847A 43.73%, #FF6854 80.33%), linear-gradient(0deg, #FFF, #FFF);
+                -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
+                // @include font-size(24px, 48px, 48px);
+	            // @include line-height(34px, 70px, 70px);
+                @include mq($until: tablet) {
+                    background: transparent;
+                    -webkit-text-fill-color: unset;
+                    -webkit-background-clip: unset;
+                }
+                img {
+                    @include mq($until: tablet) {
+                        display: none;
+                    }
+                }
+            } 
+
+        }
+        p {
+            font-family: $secondary-font-stack;
+            @include font-size(14px, 16px, 16px);
+	        @include line-height(24px, 28px, 28px);
+            letter-spacing: -0.015em;
+            color: #FFFFFF;
+            max-width: 479px;
+            margin: 0 0 33px;
+            @include mq($until: tablet) {
+                letter-spacing: normal;
+                max-width: 380px;
+                margin: 0 0 7px;
+            }
+        }
+        .buttons-holder {
+            display: flex;
+            @include mq($until: tablet) {
+                align-items: center;
+                flex-direction: column;
+            }
+            .button {
+                &--gradient {
+                    background: linear-gradient(90deg, #00ACC5 0%, #FF5D51 100%);
+                    @include mq($until: tablet) {
+                        font-size: 16px;
+                        line-height: 12px;
+                        padding: 15px 33px;
+                        min-width: 151px;
+                        margin: 0 0 18px;
+                    }
+                }
+            }
+            .play-icon {
+                @include font-size(16px, 17px, 17px);
+	            @include line-height(32px, 32px, 32px);
+                font-weight: 500;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-left: 23px;
+                color: #FFFFFF;
+                @include mq($until: tablet) {
+                    margin: 0;
+                }
+                span {
+                    width: 40px;
+                    height: 40px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    background-color: #fff;
+                    border-radius: 50%;
+                    box-shadow: 0px 0px 20px rgba(199, 199, 199, 0.25);
+                    margin-right: 14px;
+                }
+            }
+        }
+
+    }
+    &__image {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        // z-index: 0;
+    }
+    &__layer1 {
+        position: absolute;
+        right: 0;
+        top: 0;
+        @include mq($until: tablet) {
+            top: 65px;
+            width: 180px;
+        }
+        & > img {
+            background: radial-gradient(112.33% 74.7% at 112.34% 25.75%, #AB3200 0%, #932B00 11%, #541800 42%, #260B00 68%, #0A0300 88%, #000 100%);
+            background-blend-mode: screen;
+            mix-blend-mode: screen;
+        } 
+    }
+    &__layer2 {
+        position: absolute;
+        right: 0;
+        top: 0;
+        & > img {
+            background: radial-gradient(127.27% 60.54% at 127.37% 40.86%, #AB3200 0%, #932B00 11%, #541800 42%, #260B00 68%, #0A0300 88%, #000 100%);
+            background-blend-mode: color-dodge;
+            mix-blend-mode: color-dodge;
+        }
+    }
+    &__layer3 {
+        position: absolute;
+        right: 10px;
+        bottom: -82px;
+        background-blend-mode: color-dodge;
+        mix-blend-mode: color-dodge;
+        @include mq($until: desktop) {
+            width: 500px;
+        }
+        @include mq($until: tablet) {
+            width: 240px;
+            bottom: -15px;
+            right: 0;
+            left: 15px;
+            margin: 0 auto;
+        }
+    }
+    &__layer4 {
+        position: absolute;
+        right: 200px;
+        top: 100px;
+        @include mq($until: desktop) {
+            right: 28%;
+            top: auto;
+            bottom: 0;
+            width: 380px;
+        }
+        @include mq($until: tablet) {
+            right: 8px;
+            top: 70px;
+            width: 400px;
+        }
+        img {
+            background: radial-gradient(49.95% 50.02% at 49.85% 50%, #00A5A1 0%, #009491 4%, #006D6A 13%, #004B49 24%, #002F2E 35%, #001A19 47%, #000B0B 61%, #000202 76%, #000 100%);
+            background-blend-mode: color-dodge;
+            mix-blend-mode: color-dodge;
+        }
+    }
+    &__layer5 {
+        position: absolute;
+        left: 10%;
+        bottom: -25%;
+        @include mq($until: desktop) {
+            bottom: -70px;
+            width: 480px;
+        }
+        @include mq($until: tablet) {
+            bottom: -20px;
+            width: 320px;
+            left: 10px;
+        }
+        img {
+            transform: rotate(7.01deg);
+        }
+    }
+    &__layer6 {
+        position: absolute;
+        bottom: -160px;
+        left: 0;
+        @include mq($until: desktop) {
+            bottom: 0px;
+            width: 260px;
+            height: 280px;
+        }
+        @include mq($until: tablet) {
+            width: 105.26px;
+            height: 78.47px;
+        }
+    }
+}

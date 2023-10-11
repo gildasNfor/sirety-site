@@ -1,0 +1,226 @@
+.section {
+    &--two-column {
+        .section {
+            &__background {
+                display: flex; 
+                background-color: #fff;
+                padding: 42px 0 90px;
+                @include mq($until: tablet) {
+                    padding: 30px 0 42px;
+                }
+            }
+        }
+    }
+}
+
+.two-column {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    &__heading {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 29px;
+        @include mq($until: tablet) {
+            display: none;
+        }
+        h3 {
+            margin: 0 0 7px;
+        }
+        p {
+            max-width: 628px;
+        }
+        .h4 {
+            margin: 20px 0 10px;
+        }
+    }
+}
+
+.products {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    &__left-column {
+        width: calc(50% - 14px);
+        margin-right: 14px;
+        @include mq($until: tablet) {
+            width: 100%;
+            margin: 0;
+        }
+    }
+    &__right-column {
+        width: calc(50% - 14px);
+        margin-left: 14px;
+        @include mq($until: tablet) {
+            width: 100%;
+            margin: 0;
+        }
+    }
+    &__column {
+        width: 100%;
+        background-color: #F6F6F6;
+        border-radius: 5px;
+        margin: 0 0 20px;
+        padding: 16px 22px 17px;
+        position: relative;
+        @include mq($until: tablet) {
+            margin: 0 0 10px;
+            padding: 14px 12px 19px 14px;
+        }
+        ul {
+            margin: 0 0 15px;
+            @include mq($until: tablet) {
+                margin: 0 0 8px;
+            }
+        }
+    }
+    &__title {
+        h4 {
+            font-family: $primary-font-stack;
+            font-weight: 500;
+            margin: 0 0 11px;
+            @include mq($until: tablet) {
+                font-size: 22px;
+                line-height: 32px;
+                margin: 0 0 8px;
+            }
+        }
+    }
+    &__know-more-btn {
+        a {
+            display: flex;
+            align-items: center;
+            color: #028193;
+            line-height: 32px;
+            span {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 22px;
+                height: 22px;
+                background-color: #028193;
+                box-shadow: 0px 0px 11px rgba(199, 199, 199, 0.25);
+                border-radius: 50%;
+                margin-right: 8px;
+                img {
+                    width: 13px;
+                    height: 13px;
+                    object-fit: contain;
+                }
+            }
+            &:hover {
+                color: #15C3DC;
+            }
+        }
+    }
+    &__icon {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        // background-color: #EEE;
+        background-image: url("../img/product-bg.png");
+        background-size: contain;
+        width: 66.59px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img {
+            object-fit: contain;
+            position: relative;
+            top: 7px;
+            right: -8px;
+            width: 32px;
+            height: 32px;
+        }
+    }
+}
+
+.popup {
+    &--section {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.8);
+        padding: 80px 80px;
+        transition: all 0.3s ease-in-out;
+        z-index: 99;
+        @include mq($until: tablet) {
+            padding: 80px 20px;
+        }
+        .section {
+            &__background {
+                overflow-y: auto;
+                height: 100%;
+            }
+        }
+
+        .spotlight-group {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            width: 100%;
+            height: auto;
+            margin: 0 -20px;
+            @include mq($until: tablet) {
+                margin: 0 0px;
+            }
+
+            .spotlight {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                width: calc(25% - 0px);
+                margin: 0 0px 40px;
+                padding: 0px 20px;
+                @include mq($until: wide-desktop) {
+                    width: calc(33.333% - 0px);
+                }
+                @include mq($until: desktop) {
+                    width: calc(50% - 0px);
+                }
+                @include mq($until: tablet) {
+                    margin: 0 0px 20px;
+                    padding: 0px 10px;
+                }
+                @include mq($until: mobile) {
+                    width: calc(100% - 0px);
+                }
+
+                img {
+                    object-fit: contain;
+                    object-position: center;
+                    width: 100%;
+                    height: 100%;
+                }
+                span {
+                    color: #fff;
+                    margin-top: 10px;
+                }
+            }
+        }
+        .close-btn {
+            position: absolute;
+            right: 20px;
+            top: 20px;
+            transition: all 0.3s ease-in-out;
+            &:hover {
+                opacity: 0.5;
+            }
+            img {
+                width: 40px;
+                height: 40px;
+                cursor: pointer;
+            }
+        }
+    }
+}
+.hide-popup {
+    opacity: 0;
+    visibility: hidden;
+}

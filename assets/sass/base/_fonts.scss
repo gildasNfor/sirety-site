@@ -1,0 +1,44 @@
+// -----------------------------------------------------------------------------
+// This file contains all @font-face declarations, if any.
+// -----------------------------------------------------------------------------
+@font-face {
+  font-family: Open Sans;
+  src: url('https://fonts.googleapis.com/css?family=Open+Sans');
+}
+
+@font-face {
+  font-family: 'canela_trialblack';
+  src: url('../fonts/canela-black-trial-webfont.woff2') format('woff2'),
+       url('../fonts/canela-black-trial-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'canela_trialbold';
+  src: url('../fonts/canela-bold-trial-webfont.woff2') format('woff2'),
+       url('../fonts/canela-bold-trial-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'canela_trialmedium';
+  src: url('../fonts/canela-medium-trial-webfont.woff2') format('woff2'),
+       url('../fonts/canela-medium-trial-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'canela_regular_trialregular';
+  src: url('../fonts/canela-regular-trial-webfont.woff2') format('woff2'),
+       url('../fonts/canela-regular-trial-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Segoe UI';
+  src: url('../fonts/SegoeUI.woff2') format('woff2'),
+      url('../fonts/SegoeUI.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}

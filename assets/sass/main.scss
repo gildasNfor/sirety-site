@@ -1,0 +1,48 @@
+@charset 'UTF-8';
+// 1. Configuration and helpers
+@import "abstracts/variables",
+"abstracts/functions",
+"abstracts/mixins";
+// 2. Vendors
+@import "vendors/mq",
+"vendors/normalize",
+"vendors/hamburgers/hamburgers.scss",
+"vendors/slick",
+"vendors/slick-theme",
+"vendors/animate.min",
+"vendors/plyr",
+"vendors/spotlight.min";
+// 3. Base stuff
+@import "base/base",
+"base/fonts",
+"base/typography",
+"base/helpers";
+// 4. Layout-related sections
+@import "layout/header",
+"layout/footer",
+"layout/section";
+// 5. Components
+@import "components/button", 
+"components/call-to-action",
+"components/colours", 
+"components/forms", 
+"components/navbar",
+"components/tiles",
+"components/animation",
+"components/banner-home",
+"components/column-with-icon",
+"components/column-icon-text",
+"components/attach-background",
+"components/text-and-media",
+"components/column-slider",
+"components/products-banner",
+"components/two-column",
+"components/text-media-product",
+"components/about-banner",
+"components/text-and-media-about",
+"components/text-media-background",
+"components/team-slider",
+"components/service-banner",
+"components/project-process",
+"components/our-project",
+"components/contact";

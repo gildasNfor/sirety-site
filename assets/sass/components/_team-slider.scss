@@ -1,0 +1,280 @@
+.section {
+    &--team-slider {
+        .section {
+            &__background {
+                display: flex;
+                background-color: #fff;
+                width: 100%;
+                padding: 90px 0 90px;
+                @include mq($until: tablet) {
+                    padding: 30px 0 30px;
+                }
+            }
+        }
+    }
+}
+
+.team-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+    &__heading {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        max-width: 453px;
+        margin: 0 0 55px;
+        @include mq($until: tablet) {
+            margin: 0 0 45px;
+        }
+        h3 {
+            margin: 0 0 14px;
+            @include mq($until: tablet) {
+                line-height: 63px;
+                margin: 0 0 0px;
+            }
+        }
+        p {
+            @include mq($until: tablet) {
+                margin: -8px 0 0;
+            }
+        }
+    }
+    &__holder {
+        display: flex;
+        width: 100%;
+        max-width: 1057px;
+        margin: 0 auto;
+        @include mq($until: wide-desktop) {
+            max-width: 880px;
+        }
+        @include mq($until: desktop) {
+            max-width: 650px;
+        }
+        @include mq($until: tablet) {
+            max-width: 100%;
+        }
+        .desktop-slider {
+            @include mq($until: tablet) {
+                display: none;
+            }
+        }
+        .mobile-slider {
+            @include mq($from: tablet) {
+                display: none;
+            }
+        }
+    } 
+    &__slider {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        @include mq($until: tablet) {
+            flex-direction: column;
+        }
+
+        &.slick-slider {
+            .slick-prev, .slick-next {
+                font-size: 0;
+                line-height: 0;   
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: #028193;
+                backdrop-filter: none;
+                border-radius: 50%;
+                height: 56px;
+                width: 56px;
+                min-width: auto;
+                min-height: auto;
+                @include mq($until: desktop) {
+                    height: 40px;
+                    width: 40px;
+                }
+            }
+            .slick-prev {
+                left: -8%;
+                @include mq($until: wide-desktop) {
+                    left: -60px
+                }
+                @include mq($until: desktop) {
+                    left: -50px;
+                }
+                &::before {
+                    content: "";
+                    display: flex;
+                    background-image: url("../img/arrow-left-slide.svg");
+                    background-size: contain;
+                    width: 17px;
+                    height: 17px;
+                }
+            }
+            .slick-next {
+                right: -8%;
+                @include mq($until: wide-desktop) {
+                    right: -60px;
+                }
+                @include mq($until: desktop) {
+                    right: -50px;
+                }
+                &::before {
+                    content: "";
+                    display: flex;
+                    background-image: url("../img/arrow-right-slider.svg");
+                    background-size: contain;
+                    width: 17px;
+                    height: 17px;
+                }
+            }
+        }
+    }
+    &__slide {
+        display: flex;
+        flex-direction: column;
+        width: 33.333%;
+        margin: 0 25px 0;
+        @include mq($until: wide-desktop) {
+            margin: 0 15px 0;
+        }
+        @include mq($until: tablet) {
+            display: flex !important;
+            margin: 0 0px 0;
+            // width: calc(50% - 8px);
+        }
+        &--image {
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            background-color: #F6F6F6;
+            padding: 30px 30px 0px 30px;
+            @include mq($until: tablet) {
+                padding: 10px 10px 0px 10px;
+            }
+            &.slide-background-color {
+                background-color: #FFEDD2;
+            }
+            img {
+                width: 246px;
+                height: 372px; 
+                object-fit: contain;
+                @include mq($until: tablet) {
+                    width: 162px;
+                    height: 198px;
+                }
+            }
+        }
+        &--details {
+            display: flex;
+            background-color: #FFFFFF;
+            border: 1px solid #CED4E1;
+            border-top: none;
+            @include mq($until: tablet) {
+                border-radius: 0 0 10px 10px;
+            }
+            .team-detail {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                width: 100%;
+                padding: 8px 24px 8px 20px;
+                @include mq($until: tablet) {
+                    padding: 5px 9px 5px 9px;
+                }
+            }
+            .team-name {
+                display: flex;
+                flex-direction: column;
+                h5 {
+                    font-family: $primary-font-stack;
+                    font-weight: 600;
+                    margin: 0 0 -8px;
+                    @include mq($until: tablet) {
+                        font-family: $secondary-font-stack;
+                        font-weight: 500;
+                    }
+                }
+            }
+            .team-linkedin {
+                display: flex;
+                @include mq($until: tablet) {
+                    width: 26px;
+                    height: 26px;
+                }
+                a {
+                    display: flex;
+                }
+            }
+        }
+    }
+    &__slide-column {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+
+        .slick-slide {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+
+            & > div {
+                @include mq($until: tablet) {
+                    display: flex;
+                    margin: 0 8px 16px 0px;
+                    width: calc(50% - 4px);
+                }
+                &:nth-child(2n) {
+                    @include mq($until: tablet) {
+                        margin: 0 0 16px;
+                    }
+                }
+            }
+        }
+    }
+    &__slide-controls {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 16px 0 0;
+
+        .arrow {
+            &--holder {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 38px;
+                height: 38px;
+                background-color: #028193;
+                border-radius: 50%;
+                cursor: pointer;
+                &.js-prev {
+                    margin-right: 19px;
+                }
+                .arrow {
+                    width: 12px;
+                    height: 12px;
+                    object-fit: contain;
+                }
+            }
+        }
+    }
+}
+.background {
+    &--blue {
+        background-color: #D2ECFF;
+    }
+    &--pink {
+        background-color: #EDDFFF;
+    }
+    &--purple {
+        background-color: #D2D7FF;
+    }
+    &--yellow {
+        background-color: #FFEDD2;
+    }
+}
