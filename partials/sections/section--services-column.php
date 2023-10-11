@@ -6,16 +6,16 @@
                 <h3 class="germany-text">Welche Dienste werden bereitgestellt?</h3>
                 <h3 class="french-text">Quels services fournissent</h3>
                 <p class="lead eng-text">
-                    We develop for our customers innovative, robust and competitive 
+                    We develop for our customers innovative, robust and competitive
                     Software solutions in various types of technologies...
                 </p>
                 <p class="lead germany-text">
-                    Wir entwickeln für unsere Kunden innovative, 
+                    Wir entwickeln für unsere Kunden innovative,
                     robuste und wettbewerbsfähige Softwarelösungen in verschiedenen Technologien...
                 </p>
                 <p class="lead french-text">
-                    Nous développons pour nos clients des solutions logiciellesinnovantes, 
-                    robustesetcompétitivesdansdifférents types de technologies...
+                    Nous développons pour nos clients des solutions logicielles innovantes,
+                    robustes et compétitives dans différents types de technologies...
                 </p>
                 <div class="icon-text__holder">
                     <a href="services.php" class="icon-text__column">
@@ -25,19 +25,22 @@
                         <div class="icon-text__content eng-text">
                             <h5 class="icon-text__heading">Software development</h5>
                             <p class="icon-text__text">
-                                We develop customer specific software solutions, or adapt or rework your already existing software.
+                                We develop customer specific software solutions, or adapt or rework your already
+                                existing software.
                             </p>
                         </div>
                         <div class="icon-text__content germany-text">
                             <h5 class="icon-text__heading">Software-Entwicklung</h5>
                             <p class="icon-text__text">
-                                Wir entwickeln kundenspezifische Softwarelösungen oder adaptieren oder überarbeiten Ihre bereits bestehende Software.
+                                Wir entwickeln kundenspezifische Softwarelösungen oder adaptieren oder überarbeiten Ihre
+                                bereits bestehende Software.
                             </p>
                         </div>
                         <div class="icon-text__content french-text">
                             <h5 class="icon-text__heading">Développement de logiciels</h5>
                             <p class="icon-text__text">
-                                Nous développons des solutions logiciellesspécifiques pour nos clients, ou nous adaptonsoumodifionsvoslogicielsexistants.
+                                Nous développons des solutions logiciellesspécifiques pour nos clients, ou nous
+                                adaptonsoumodifionsvoslogicielsexistants.
                             </p>
                         </div>
                     </a>
@@ -48,7 +51,7 @@
                         <div class="icon-text__content eng-text">
                             <h5 class="icon-text__heading">Mobile Application</h5>
                             <p class="icon-text__text">
-                                For mobile devices we design and develop modern Apps. 
+                                For mobile devices we design and develop modern Apps.
                             </p>
                         </div>
                         <div class="icon-text__content germany-text">

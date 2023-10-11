@@ -3,8 +3,14 @@
         <div class="section__container">
             <div class="project-process">
                 <div class="project-process__heading">
-                    <h3>Our Project Process</h3>
-                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint Velit officia consequat duis enim velit mollit.</p>
+                    <h3 class="eng-text">Our Project Process</h3>
+                    <h3 class="french-text">Notre processus de projet</h3>
+                    <p class="eng-text">We follow the Agile method which involves breaking the project into phases
+                        and emphasizes
+                        continuous collaboration and improvement.</p>
+                    <p class="french-text">Nous suivons la méthode Agile qui consiste à diviser le projet en phases et à
+                        mettre l'accent sur la
+                        la collaboration et l'amélioration continues.</p>
                 </div>
                 <div class="project-process__process">
                     <div class="process">
@@ -15,7 +21,8 @@
                                 </div>
                             </div>
                             <div class="process__holder--title">
-                                <h5>Research</h5>
+                                <h5 class="eng-text">Analysis</h5>
+                                <h5 class="french-text">Analyse</h5>
                             </div>
                         </div>
                         <div class="process__design process__holder">
@@ -25,7 +32,8 @@
                                 </div>
                             </div>
                             <div class="process__holder--title">
-                                <h5>Design</h5>
+                                <h5 class="eng-text">Design</h5>
+                                <h5 class="french-text">Conception</h5>
                             </div>
                         </div>
                         <div class="process__development process__holder">
@@ -35,7 +43,8 @@
                                 </div>
                             </div>
                             <div class="process__holder--title">
-                                <h5>Development</h5>
+                                <h5 class="eng-text">Development</h5>
+                                <h5 class="french-text">Développement</h5>
                             </div>
                         </div>
                         <div class="process__testing process__holder">
@@ -45,7 +54,8 @@
                                 </div>
                             </div>
                             <div class="process__holder--title">
-                                <h5>Testing</h5>
+                                <h5 class="eng-text">Testing</h5>
+                                <h5 class="french-text">Tests</h5>
                             </div>
                         </div>
                     </div>

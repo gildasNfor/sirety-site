@@ -3,17 +3,20 @@
         <div class="section__container">
             <div class="two-column">
                 <div class="two-column__heading eng-text">
-                    <h3>Discover SIRETY, an ERP made up of several independent modules, which can also be interconnected as required. </h3>
+                    <h3>Discover SIRETY, an ERP made up of several independent modules, which can also be interconnected
+                        as required. </h3>
                     <p>
-                        On the one hand, SIRETY offers several POS modules dedicated to sales through to invoicing for hotels, restaurants, boutiques, 
-                        party halls, small and large businesses. On the other, modules for accounting, inventory management and human resources management
+                        On the one hand, SIRETY offers several POS modules dedicated to sales through to invoicing for
+                        hotels, restaurants, boutiques,
+                        party halls, small and large businesses. On the other, modules for accounting, inventory
+                        management and human resources management
                     </p>
                     <p class="h4">
                         <strong>General features:</strong>
                     </p>
                     <ul>
                         <li>Web application</li>
-                        <li>Accessible from anywhere via the Internet OR  locally without internet connection</li>
+                        <li>Accessible from anywhere via the Internet OR locally without internet connection</li>
                         <li>Control of access rights (users only access what they are authorized)</li>
                         <li>Multi-user</li>
                         <li>Multi-language</li>
@@ -21,10 +24,13 @@
                     </ul>
                 </div>
                 <div class="two-column__heading germany-text">
-                    <h3>Entdecken SIRETY, ein ERP, das aus mehreren unabhängigen Modulen besteht, die je nach Bedarf auch miteinander verbunden werden können. </h3>
+                    <h3>Entdecken SIRETY, ein ERP, das aus mehreren unabhängigen Modulen besteht, die je nach Bedarf
+                        auch miteinander verbunden werden können. </h3>
                     <p>
-                        Einerseits bietet SIRETY mehrere POS-Module für den Verkauf bis hin zur Rechnungsstellung für Hotels, 
-                        Restaurants, Boutiquen, Festsäle, kleine und große Unternehmen. Zum anderen Module für die Buchhaltung, 
+                        Einerseits bietet SIRETY mehrere POS-Module für den Verkauf bis hin zur Rechnungsstellung für
+                        Hotels,
+                        Restaurants, Boutiquen, Festsäle, kleine und große Unternehmen. Zum anderen Module für die
+                        Buchhaltung,
                         die Lagerverwaltung und das Personalmanagement.
                     </p>
                     <p>
@@ -33,34 +39,38 @@
                     <ul>
                         <li>Web-Anwendung</li>
                         <li>Von überall aus über das Internet zugänglich ODER lokal ohne Internetverbindung</li>
-                        <li>Kontrolle der Zugriffsrechte (Benutzer greifen nur auf das zu, wozu sie berechtigt sind)</li>
+                        <li>Kontrolle der Zugriffsrechte (Benutzer greifen nur auf das zu, wozu sie berechtigt sind)
+                        </li>
                         <li>Multi-User</li>
                         <li>Mehrsprachig</li>
                         <li>Sicherheit der persönlichen Daten durch fortschrittliche Verschlüsselungstechniken</li>
                     </ul>
                 </div>
                 <div class="two-column__heading french-text">
-                    <h3>Découvrez SIRETY, qui estune ERP constitué de plusieurs modules indépendants, maiségalementinterconnectables en fonction des besoins. </h3>
+                    <h3>Découvrez SIRETY, qui estune ERP constitué de plusieurs modules indépendants, mais également
+                        interconnectables en fonction des besoins. </h3>
                     <p>
-                        SIRETY offred'une part plusieurs PDV dédiés à la ventejusqu'à la facturation pour Hotels, restaurants, boutiques, 
-                        salle de fête, petits et grandscommerces. D'autre part des modules de comptabilité, de gestion des stocks, ainsi-que 
-                        de gestion des ressourceshumaines.
+                        SIRETY offre d'une part plusieurs PDV dédiés à la vente jusqu'à la facturation pour Hotels,
+                        restaurants, boutiques,
+                        salle de fête, petits et grands commerces. D'autre part des modules de comptabilité, de gestion
+                        des stocks, ainsi-que
+                        de gestion des ressources humaines.
                     </p>
                     <p>
-                        <strong>Fonctionalitésgénérales:</strong>
+                        <strong>Fonctionalités générales:</strong>
                     </p>
                     <ul>
                         <li>Application web</li>
                         <li>Accessible de partout via internet OU uniquement localement sans connexion internet</li>
-                        <li>Contrôle des droitd'accès (L'utilisateurn'accèdequ'àce qui luiestautorisé)</li>
+                        <li>Contrôle des droits d'accès (les utilisateurs n'accèdent qu'à ce qui leur est autorisé)</li>
                         <li>Multi-utilisateurs</li>
                         <li>Multi-langues</li>
-                        <li>sécurisation des donnéespersonnellesbaséesur des techniques de cryptographieavancées</li>
+                        <li>Sécurité des données personnelles basée sur des techniques cryptographiques avancées</li>
                     </ul>
                 </div>
                 <div class="products">
                     <div class="products__left-column">
-						<div class="products__column eng-text">
+                        <div class="products__column eng-text">
                             <div class="products__title">
                                 <h4>Front-Office</h4>
                             </div>
@@ -84,7 +94,8 @@
                                 <li>Various types of Reports</li>
                             </ul>
                             <div class="products__know-more-btn">
-                                <a href="javascript:void(0)" class="js-popup"> <span><img src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
+                                <a href="javascript:void(0)" class="js-popup-fo"> <span><img
+                                            src="assets/img/know-more-icon.svg" alt=""></span>Know More</a>
                             </div>
                             <div class="products__icon">
                                 <img src="assets/img/Front-Office-product.svg" alt="">
@@ -114,7 +125,8 @@
                                 <li>VerschiedeneArten von Berichten</li>
                             </ul>
                             <div class="products__know-more-btn">
-                                <a href="javascript:void(0)" class="js-popup"> <span><img src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
+                                <a href="javascript:void(0)" class="js-popup"> <span><img
+                                            src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
                             </div>
                             <div class="products__icon">
                                 <img src="assets/img/Front-Office-product.svg" alt="">
@@ -128,29 +140,30 @@
                                 <li>Gestion des réservations</li>
                                 <li>Enregistrement des invités</li>
                                 <li>Départ des invités</li>
-                                <li>Listedétaillée des invités</li>
+                                <li>Liste détaillée des invités</li>
                                 <li>Enregistrement et départ de groupes</li>
                                 <li>Facturation</li>
                                 <li>Configuration des tarifs des chambres par type de chambre et par saison</li>
-                                <li>Historiquedétaillée des invités</li>
+                                <li>Historique détaillée des invités</li>
                                 <li>Modes de paiement multiples</li>
                                 <li>Multiples devises</li>
-                                <li>Vuedétailléesurl'étatactuel des chambres</li>
+                                <li>Vue détaillée sur l'état actuel des chambres</li>
                                 <li>Option de contrôle des rabais</li>
                                 <li>Fractionnement de factures</li>
                                 <li>Divers types de rapports</li>
-                                <li>Saisie de photos et carted'identité du client</li>
+                                <li>Saisie de photos et carte d'identité du client</li>
                                 <li>Configuration des packages</li>
                                 <li>Gestion de Stock</li>
                             </ul>
                             <div class="products__know-more-btn">
-                                <a href="javascript:void(0)" class="js-popup"> <span><img src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
+                                <a href="javascript:void(0)" class="js-popup-fo"> <span><img
+                                            src="assets/img/know-more-icon.svg" alt=""></span>En savoir plus</a>
                             </div>
                             <div class="products__icon">
                                 <img src="assets/img/Front-Office-product.svg" alt="">
                             </div>
                         </div>
-						<div class="products__column eng-text">
+                        <div class="products__column eng-text">
                             <div class="products__title">
                                 <h4>House Keeping</h4>
                             </div>
@@ -162,7 +175,8 @@
                                 <li>Various types of Reports</li>
                             </ul>
                             <div class="products__know-more-btn">
-                                <a href="javascript:void(0)" class="js-popup"> <span><img src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
+                                <a href="javascript:void(0)" class="js-popup-hk"> <span><img
+                                            src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
                             </div>
                             <div class="products__icon">
                                 <img src="assets/img/House-Keeping-product.svg" alt="">
@@ -180,7 +194,8 @@
                                 <li>Divers types de rapports</li>
                             </ul>
                             <div class="products__know-more-btn">
-                                <a href="javascript:void(0)" class="js-popup"> <span><img src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
+                                <a href="javascript:void(0)" class="js-popup-hk"> <span><img
+                                            src="assets/img/know-more-icon.svg" alt=""></span> En savoir plus</a>
                             </div>
                             <div class="products__icon">
                                 <img src="assets/img/House-Keeping-product.svg" alt="">
@@ -198,7 +213,8 @@
                                 <li>Verschiedene Arten von Berichten</li>
                             </ul>
                             <div class="products__know-more-btn">
-                                <a href="javascript:void(0)" class="js-popup"> <span><img src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
+                                <a href="javascript:void(0)" class="js-popup"> <span><img
+                                            src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
                             </div>
                             <div class="products__icon">
                                 <img src="assets/img/House-Keeping-product.svg" alt="">
@@ -223,7 +239,8 @@
                                 <li>Various types of Reports</li>
                             </ul>
                             <div class="products__know-more-btn">
-                                <a href="javascript:void(0)" class="js-popup"> <span><img src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
+                                <a href="javascript:void(0)" class="js-popup-stock"> <span><img
+                                            src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
                             </div>
                             <div class="products__icon">
                                 <img src="assets/img/Inventory-&-Stock-product.svg" alt="">
@@ -235,20 +252,21 @@
                             </div>
                             <ul>
                                 <li>Gestion des articles</li>
-                                <li>Gestion des commandesd'achat</li>
+                                <li>Gestion des commandes d'achat</li>
                                 <li>Commande de stock</li>
-                                <li>gestion des sorties de stock</li>
+                                <li>Gestion des sorties de stock</li>
                                 <li>Transfert de stock</li>
                                 <li>Retours de stock</li>
                                 <li>Retours d'achats</li>
                                 <li>Identification physique de stock</li>
                                 <li>Bons de réception</li>
                                 <li>Gestion des fournisseurs</li>
-                                <li>Gestiond'entrepôt</li>
+                                <li>Gestion d'entrepôt</li>
                                 <li>Divers types de rapports</li>
                             </ul>
                             <div class="products__know-more-btn">
-                                <a href="javascript:void(0)" class="js-popup"> <span><img src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
+                                <a href="javascript:void(0)" class="js-popup-stock"> <span><img
+                                            src="assets/img/know-more-icon.svg" alt=""></span>En savoir plus</a>
                             </div>
                             <div class="products__icon">
                                 <img src="assets/img/Inventory-&-Stock-product.svg" alt="">
@@ -273,13 +291,14 @@
                                 <li>Verschiedene Arten von Berichten</li>
                             </ul>
                             <div class="products__know-more-btn">
-                                <a href="javascript:void(0)" class="js-popup"> <span><img src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
+                                <a href="javascript:void(0)" class="js-popup"> <span><img
+                                            src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
                             </div>
                             <div class="products__icon">
                                 <img src="assets/img/Inventory-&-Stock-product.svg" alt="">
                             </div>
                         </div>
-						<div class="products__column eng-text">
+                        <div class="products__column eng-text">
                             <div class="products__title">
                                 <h4>Sales</h4>
                             </div>
@@ -295,7 +314,8 @@
                                 <li>Various types of Reports</li>
                             </ul>
                             <div class="products__know-more-btn">
-                                <a href="javascript:void(0)" class="js-popup"> <span><img src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
+                                <a href="javascript:void(0)" class="js-popup-sales"> <span><img
+                                            src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
                             </div>
                             <div class="products__icon">
                                 <img src="assets/img/Sales.svg" alt="">
@@ -303,7 +323,7 @@
                         </div>
                         <div class="products__column french-text">
                             <div class="products__title">
-                                <h4>Sales</h4>
+                                <h4>Ventes</h4>
                             </div>
                             <ul>
                                 <li>Gestion des tarifs de vente</li>
@@ -317,7 +337,8 @@
                                 <li>Divers types de rapports</li>
                             </ul>
                             <div class="products__know-more-btn">
-                                <a href="javascript:void(0)" class="js-popup"> <span><img src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
+                                <a href="javascript:void(0)" class="js-popup-sales"> <span><img
+                                            src="assets/img/know-more-icon.svg" alt=""></span>En savoir plus</a>
                             </div>
                             <div class="products__icon">
                                 <img src="assets/img/Sales.svg" alt="">
@@ -339,13 +360,14 @@
                                 <li>Verschiedene Arten von Berichten</li>
                             </ul>
                             <div class="products__know-more-btn">
-                                <a href="javascript:void(0)" class="js-popup"> <span><img src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
+                                <a href="javascript:void(0)" class="js-popup"> <span><img
+                                            src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
                             </div>
                             <div class="products__icon">
                                 <img src="assets/img/Sales.svg" alt="">
                             </div>
                         </div>
-                        <div class="products__column">
+                        <!-- <div class="products__column">
                             <div class="products__title">
                                 <h4>Banquet & Event</h4>
                             </div>
@@ -362,15 +384,16 @@
                                 <li>Amet minim mollit non</li>
                             </ul>
                             <div class="products__know-more-btn">
-                                <a href="javascript:void(0)" class="js-popup"> <span><img src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
+                                <a href="javascript:void(0)" class="js-popup"> <span><img
+                                            src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
                             </div>
                             <div class="products__icon">
                                 <img src="assets/img/Banquet-&-Event.svg" alt="">
                             </div>
-                        </div>
-                    </div> 
+                        </div> -->
+                    </div>
                     <div class="products__right-column">
-						<div class="products__column eng-text">
+                        <div class="products__column eng-text">
                             <div class="products__title">
                                 <h4>Laundry</h4>
                             </div>
@@ -383,7 +406,8 @@
                                 <li>Various types of Reports</li>
                             </ul>
                             <div class="products__know-more-btn">
-                                <a href="javascript:void(0)" class="js-popup"> <span><img src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
+                                <a href="javascript:void(0)" class="js-popup-laundry-fr"> <span><img
+                                            src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
                             </div>
                             <div class="products__icon">
                                 <img src="assets/img/Laundry-product.svg" alt="">
@@ -395,14 +419,15 @@
                             </div>
                             <ul>
                                 <li>Configuration flexible des articles et des tarifs</li>
-                                <li>Blanchisseried'hôtel</li>
-                                <li>Blanchisserie interne pourclients</li>
-                                <li>Facturationdirecte/transfertvers la chambre d'hôtel</li>
+                                <li>Blanchisserie d'hôtel</li>
+                                <li>Blanchisserie interne pour clients</li>
+                                <li>Facturation directe/transfert vers la chambre d'hôtel</li>
                                 <li>Gestion de stock</li>
                                 <li>Divers types de rapports</li>
                             </ul>
                             <div class="products__know-more-btn">
-                                <a href="javascript:void(0)"> <span><img src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
+                                <a class="js-popup-laundry-fr" href="javascript:void(0)"> <span><img
+                                            src="assets/img/know-more-icon.svg" alt=""></span> En savoir plus</a>
                             </div>
                             <div class="products__icon">
                                 <img src="assets/img/Laundry-product.svg" alt="">
@@ -421,13 +446,14 @@
                                 <li>Verschiedene Arten von Berichten</li>
                             </ul>
                             <div class="products__know-more-btn">
-                                <a href="javascript:void(0)" class="js-popup"> <span><img src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
+                                <a href="javascript:void(0)" class="js-popup"> <span><img
+                                            src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
                             </div>
                             <div class="products__icon">
                                 <img src="assets/img/Laundry-product.svg" alt="">
                             </div>
                         </div>
-						<div class="products__column eng-text">
+                        <div class="products__column eng-text">
                             <div class="products__title">
                                 <h4>RMS POS</h4>
                             </div>
@@ -449,7 +475,8 @@
                                 <li>Various types of Reports</li>
                             </ul>
                             <div class="products__know-more-btn">
-                                <a href="javascript:void(0)" class="js-popup"> <span><img src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
+                                <a href="javascript:void(0)" class="js-popup-rms"> <span><img
+                                            src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
                             </div>
                             <div class="products__icon">
                                 <img src="assets/img/RMS-POS-product.svg" alt="">
@@ -477,7 +504,8 @@
                                 <li>Configuration des paquets</li>
                             </ul>
                             <div class="products__know-more-btn">
-                                <a href="javascript:void(0)" class="js-popup"> <span><img src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
+                                <a href="javascript:void(0)" class="js-popup-rms"> <span><img
+                                            src="assets/img/know-more-icon.svg" alt=""></span> En savoir plus</a>
                             </div>
                             <div class="products__icon">
                                 <img src="assets/img/RMS-POS-product.svg" alt="">
@@ -505,13 +533,14 @@
                                 <li>Verschiedene Arten von Berichten</li>
                             </ul>
                             <div class="products__know-more-btn">
-                                <a href="javascript:void(0)" class="js-popup"> <span><img src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
+                                <a href="javascript:void(0)" class="js-popup"> <span><img
+                                            src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
                             </div>
                             <div class="products__icon">
                                 <img src="assets/img/RMS-POS-product.svg" alt="">
                             </div>
                         </div>
-						<div class="products__column eng-text">
+                        <div class="products__column eng-text">
                             <div class="products__title">
                                 <h4>Account & Finance</h4>
                             </div>
@@ -528,7 +557,8 @@
                                 <li>Various types of Reports</li>
                             </ul>
                             <div class="products__know-more-btn">
-                                <a href="javascript:void(0)" class="js-popup"> <span><img src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
+                                <a href="javascript:void(0)" class="js-popup-acc"> <span><img
+                                            src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
                             </div>
                             <div class="products__icon">
                                 <img src="assets/img/Account-&-Finance-product.svg" alt="">
@@ -539,19 +569,20 @@
                                 <h4>Comptabilité & Finances</h4>
                             </div>
                             <ul>
-                                <li>Grand livregénéral</li>
-                                <li>Comptescréditeursetdébiteurs</li>
+                                <li>Grand livre général</li>
+                                <li>Comptes créditeurs et débiteurs</li>
                                 <li>États des flux de trésorerie et de fonds</li>
                                 <li>Rapprochements bancaires</li>
                                 <li>Dépenses</li>
-                                <li>Comptabilitéanalytique</li>
+                                <li>Comptabilité analytique</li>
                                 <li>Gestion des Actif fixe</li>
                                 <li>Multiples devise</li>
                                 <li>Rapports financiers</li>
                                 <li>Divers types de rapports</li>
                             </ul>
                             <div class="products__know-more-btn">
-                                <a href="javascript:void(0)" class="js-popup"> <span><img src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
+                                <a href="javascript:void(0)" class="js-popup-acc"> <span><img
+                                            src="assets/img/know-more-icon.svg" alt=""></span> En savoir plus</a>
                             </div>
                             <div class="products__icon">
 
@@ -575,7 +606,8 @@
                                 <li>Verschiedene Arten von Berichten</li>
                             </ul>
                             <div class="products__know-more-btn">
-                                <a href="javascript:void(0)" class="js-popup"> <span><img src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
+                                <a href="javascript:void(0)" class="js-popup"> <span><img
+                                            src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
                             </div>
                             <div class="products__icon">
                                 <img src="assets/img/Account-&-Finance-product.svg" alt="">
@@ -590,14 +622,15 @@
                                 <li>Designation management</li>
                                 <li>Shift & shift break management</li>
                                 <li>Employee management</li>
-								<li>Holiday management</li>
-								<li>Payroll management</li>
-								<li>Attendance management</li>
-								<li>Time track management</li>
-								<li>Various types of Reports</li>
+                                <li>Holiday management</li>
+                                <li>Payroll management</li>
+                                <li>Attendance management</li>
+                                <li>Time track management</li>
+                                <li>Various types of Reports</li>
                             </ul>
                             <div class="products__know-more-btn">
-                                <a href="javascript:void(0)" class="js-popup"> <span><img src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
+                                <a href="javascript:void(0)" class="js-popup"> <span><img
+                                            src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
                             </div>
                             <div class="products__icon">
                                 <img src="assets/img/Inventory-&-Stock-product.svg" alt="">
@@ -612,14 +645,15 @@
                                 <li>Verwaltung von Bezeichnungen</li>
                                 <li>Verwaltung von Schichten und Schichtpausen</li>
                                 <li>Mitarbeiterverwaltung</li>
-								<li>Urlaubsverwaltung</li>
-								<li>Verwaltung von Lohnabrechnung</li>
-								<li>Anwesenheitsverwaltung</li>
-								<li>Verwaltung von Zeiterfassung</li>
-								<li>VerschiedeneArten von Berichten</li>
+                                <li>Urlaubsverwaltung</li>
+                                <li>Verwaltung von Lohnabrechnung</li>
+                                <li>Anwesenheitsverwaltung</li>
+                                <li>Verwaltung von Zeiterfassung</li>
+                                <li>VerschiedeneArten von Berichten</li>
                             </ul>
                             <div class="products__know-more-btn">
-                                <a href="javascript:void(0)" class="js-popup"> <span><img src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
+                                <a href="javascript:void(0)" class="js-popup"> <span><img
+                                            src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
                             </div>
                             <div class="products__icon">
                                 <img src="assets/img/Inventory-&-Stock-product.svg" alt="">
@@ -627,27 +661,28 @@
                         </div>
                         <div class="products__column french-text">
                             <div class="products__title">
-                                <h4>GestionRessourcesHumaines</h4>
+                                <h4>Gestion Ressources Humaines</h4>
                             </div>
                             <ul>
                                 <li>Gestion des départements</li>
                                 <li>Gestion des désignations</li>
                                 <li>Gestion des horaires</li>
                                 <li>Gestion des employés</li>
-								<li>Gestion des absences</li>
-								<li>Gestion des paies</li>
-								<li>Gestion des présences</li>
-								<li>Gestion du suivi des durées de travail</li>
-								<li>Divers types de rapports </li>
+                                <li>Gestion des absences</li>
+                                <li>Gestion des paies</li>
+                                <li>Gestion des présences</li>
+                                <li>Gestion du suivi des durées de travail</li>
+                                <li>Divers types de rapports </li>
                             </ul>
                             <div class="products__know-more-btn">
-                                <a href="javascript:void(0)" class="js-popup"> <span><img src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
+                                <a href="javascript:void(0)" class="js-popup"> <span><img
+                                            src="assets/img/know-more-icon.svg" alt=""></span> En savoir plus</a>
                             </div>
                             <div class="products__icon">
                                 <img src="assets/img/Inventory-&-Stock-product.svg" alt="">
                             </div>
                         </div>
-						<div class="products__column eng-text">
+                        <!-- <div class="products__column eng-text">
                             <div class="products__title">
                                 <h4>Bar POS</h4>
                             </div>
@@ -656,20 +691,21 @@
                                 <li>KOT & Table transfer</li>
                                 <li>Add/Edit KOT</li>
                                 <li>Take Away/Delivery KOT Management</li>
-								<li>KOT Auto-Printing</li>
-								<li>Billing</li>
-								<li>Shift management</li>
-								<li>Room service</li>
-								<li>Multiple Payment Modes</li>
-								<li>Multiple currencies</li>
-								<li>Discount control option</li>
-								<li>Invoice Splitting</li>
-								<li>Package Setup</li>
-								<li>Stock Management</li>
-								<li>Various types of Reports</li>
+                                <li>KOT Auto-Printing</li>
+                                <li>Billing</li>
+                                <li>Shift management</li>
+                                <li>Room service</li>
+                                <li>Multiple Payment Modes</li>
+                                <li>Multiple currencies</li>
+                                <li>Discount control option</li>
+                                <li>Invoice Splitting</li>
+                                <li>Package Setup</li>
+                                <li>Stock Management</li>
+                                <li>Various types of Reports</li>
                             </ul>
                             <div class="products__know-more-btn">
-                                <a href="javascript:void(0)" class="js-popup"> <span><img src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
+                                <a href="javascript:void(0)" class="js-popup"> <span><img
+                                            src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
                             </div>
                             <div class="products__icon">
                                 <img src="assets/img/Banquet-&-Event.svg" alt="">
@@ -684,20 +720,21 @@
                                 <li>KOT &Tischübertragen</li>
                                 <li>KOT hinzufügen/bearbeiten</li>
                                 <li>Mitnahme-/Auslieferung KOT Verwaltung</li>
-								<li>KOT Auto-Drucken</li>
-								<li>Abrechnung</li>
-								<li>Schichtverwaltung</li>
-								<li>Zimmerservice</li>
-								<li>MehrereZahlungsmodi</li>
-								<li>MehrereWährungen</li>
-								<li>Rabattkontrolle</li>
-								<li>Rechnungsaufteilung</li>
-								<li>Einrichten von Paketen</li>
-								<li>Lagerverwaltung</li>
-								<li>VerschiedeneArten von Berichten</li>
+                                <li>KOT Auto-Drucken</li>
+                                <li>Abrechnung</li>
+                                <li>Schichtverwaltung</li>
+                                <li>Zimmerservice</li>
+                                <li>MehrereZahlungsmodi</li>
+                                <li>MehrereWährungen</li>
+                                <li>Rabattkontrolle</li>
+                                <li>Rechnungsaufteilung</li>
+                                <li>Einrichten von Paketen</li>
+                                <li>Lagerverwaltung</li>
+                                <li>VerschiedeneArten von Berichten</li>
                             </ul>
                             <div class="products__know-more-btn">
-                                <a href="javascript:void(0)" class="js-popup"> <span><img src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
+                                <a href="javascript:void(0)" class="js-popup"> <span><img
+                                            src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
                             </div>
                             <div class="products__icon">
                                 <img src="assets/img/Banquet-&-Event.svg" alt="">
@@ -712,24 +749,25 @@
                                 <li>Transfert de KOT et de tables</li>
                                 <li>Ajouter/modifier KOT</li>
                                 <li>Gestion des stocks</li>
-								<li>Gestion des KOT à emporter/livrer</li>
-								<li>Facturation</li>
-								<li>Gestion des équipes</li>
-								<li>Modes de paiement multiples</li>
-								<li>Multiples monnaies</li>
-								<li>Option de contrôle des remises</li>
-								<li>Fractionnement des factures</li>
-								<li>Divers types de rapports</li>
-								<li>Impression automatique de KOT</li>
-								<li>Configuration des paquets</li>
+                                <li>Gestion des KOT à emporter/livrer</li>
+                                <li>Facturation</li>
+                                <li>Gestion des équipes</li>
+                                <li>Modes de paiement multiples</li>
+                                <li>Multiples monnaies</li>
+                                <li>Option de contrôle des remises</li>
+                                <li>Fractionnement des factures</li>
+                                <li>Divers types de rapports</li>
+                                <li>Impression automatique de KOT</li>
+                                <li>Configuration des paquets</li>
                             </ul>
                             <div class="products__know-more-btn">
-                                <a href="javascript:void(0)" class="js-popup"> <span><img src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
+                                <a href="javascript:void(0)" class="js-popup"> <span><img
+                                            src="assets/img/know-more-icon.svg" alt=""></span> En savoir plus</a>
                             </div>
                             <div class="products__icon">
                                 <img src="assets/img/Banquet-&-Event.svg" alt="">
                             </div>
-                        </div>
+                        </div> -->
                         <div class="products__column eng-text">
                             <div class="products__title">
                                 <h4>CRM</h4>
@@ -741,7 +779,8 @@
                                 <li>Sending SMS</li>
                             </ul>
                             <div class="products__know-more-btn">
-                                <a href="javascript:void(0)" class="js-popup"> <span><img src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
+                                <a href="javascript:void(0)" class="js-popup"> <span><img
+                                            src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
                             </div>
                             <div class="products__icon">
                                 <img src="assets/img/CRM-product.svg" alt="">
@@ -752,13 +791,14 @@
                                 <h4>CRM</h4>
                             </div>
                             <ul>
-                                <li>gestion des contacts</li>
+                                <li>Gestion des contacts</li>
                                 <li>Marketing électronique</li>
-                                <li>livraison par e-mail</li>
+                                <li>Livraison par e-mail</li>
                                 <li>Envoi de SMS</li>
                             </ul>
                             <div class="products__know-more-btn">
-                                <a href="javascript:void(0)" class="js-popup"> <span><img src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
+                                <a href="javascript:void(0)" class="js-popup"> <span><img
+                                            src="assets/img/know-more-icon.svg" alt=""></span> En savoir plus</a>
                             </div>
                             <div class="products__icon">
                                 <img src="assets/img/CRM-product.svg" alt="">
@@ -775,7 +815,8 @@
                                 <li>SMS-Versand</li>
                             </ul>
                             <div class="products__know-more-btn">
-                                <a href="javascript:void(0)" class="js-popup"> <span><img src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
+                                <a href="javascript:void(0)" class="js-popup"> <span><img
+                                            src="assets/img/know-more-icon.svg" alt=""></span> Know More</a>
                             </div>
                             <div class="products__icon">
                                 <img src="assets/img/CRM-product.svg" alt="">
@@ -812,6 +853,233 @@
                         <img src="assets/img/project-1.png">
                         <span>Image 4</span>
                     </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="popup--section crm hide-popup">
+    <div class="section__background">
+        <div class="close-btn">
+            <img src="assets/img/close-icon.svg">
+        </div>
+        <div class="section__container">
+            <div class="popup">
+                <div class="spotlight-group">
+                    <a class="spotlight" href="assets/img/project-1.png">
+                        <img src="assets/img/project-1.png">
+                        <span>Image 1</span>
+                    </a>
+                    <a class="spotlight" href="assets/img/project-1.png">
+                        <img src="assets/img/project-1.png">
+                        <span>Image 2</span>
+                    </a>
+                    <a class="spotlight" href="assets/img/project-1.png">
+                        <img src="assets/img/project-1.png">
+                        <span>Image 3</span>
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="popup--section fo hide-popup">
+    <div class="section__background">
+        <div class="close-btn">
+            <img src="assets/img/close-icon.svg">
+        </div>
+        <div class="section__container">
+            <div class="popup">
+                <div class="spotlight-group">
+                    <a class="spotlight" href="assets/img/fo1.png">
+                        <img src="assets/img/fo1.png">
+                        <!-- <span>Image 1</span> -->
+                    </a>
+                    <a class="spotlight" href="assets/img/fo2.png">
+                        <img src="assets/img/fo2.png">
+                        <!-- <span>Image 2</span> -->
+                    </a>
+                    <a class="spotlight" href="assets/img/fo3.png">
+                        <img src="assets/img/fo3.png">
+                        <!-- <span>Image 3</span> -->
+                    </a>
+                    <a class="spotlight" href="assets/img/fo4.png">
+                        <img src="assets/img/fo4.png">
+                        <!-- <span>Image 3</span> -->
+                    </a>
+                    <a class="spotlight" href="assets/img/fo5.png">
+                        <img src="assets/img/fo5.png">
+                        <!-- <span>Image 3</span> -->
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="popup--section laundry-fr hide-popup">
+    <div class="section__background">
+        <div class="close-btn">
+            <img src="assets/img/close-icon.svg">
+        </div>
+        <div class="section__container">
+            <div class="popup">
+                <div class="spotlight-group">
+                    <a class="spotlight" href="assets/img/laundry-fr-3.png">
+                        <img src="assets/img/laundry-fr-1.png">
+                        <!-- <span>Image 1</span> -->
+                    </a>
+                    <a class="spotlight" href="assets/img/laundry-fr-3.png">
+                        <img src="assets/img/laundry-fr-2.png">
+                        <!-- <span>Image 2</span> -->
+                    </a>
+                    <a class="spotlight" href="assets/img/laundry-fr-3.png">
+                        <img src="assets/img/laundry-fr-3.png">
+                        <!-- <span>Image 3</span> -->
+                    </a>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="popup--section hk hide-popup">
+    <div class="section__background">
+        <div class="close-btn">
+            <img src="assets/img/close-icon.svg">
+        </div>
+        <div class="section__container">
+            <div class="popup">
+                <div class="spotlight-group">
+                    <a class="spotlight" href="assets/img/hk.png">
+                        <img src="assets/img/hk.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="popup--section rms hide-popup">
+    <div class="section__background">
+        <div class="close-btn">
+            <img src="assets/img/close-icon.svg">
+        </div>
+        <div class="section__container">
+            <div class="popup">
+                <div class="spotlight-group">
+                    <a class="spotlight" href="assets/img/rms1.png">
+                        <img src="assets/img/rms1.png">
+                        <!-- <span>Image 1</span> -->
+                    </a>
+                    <a class="spotlight" href="assets/img/rms2.png">
+                        <img src="assets/img/rms2.png">
+                        <!-- <span>Image 2</span> -->
+                    </a>
+                    <a class="spotlight" href="assets/img/rms3.png">
+                        <img src="assets/img/rms3.png">
+                        <!-- <span>Image 3</span> -->
+                    </a>
+                    <a class="spotlight" href="assets/img/rms4.png">
+                        <img src="assets/img/rms4.png">
+                        <!-- <span>Image 3</span> -->
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="popup--section acc hide-popup">
+    <div class="section__background">
+        <div class="close-btn">
+            <img src="assets/img/close-icon.svg">
+        </div>
+        <div class="section__container">
+            <div class="popup">
+                <div class="spotlight-group">
+                    <a class="spotlight" href="assets/img/acc1.png">
+                        <img src="assets/img/acc1.png">
+                        <!-- <span>Image 1</span> -->
+                    </a>
+                    <a class="spotlight" href="assets/img/acc2.png">
+                        <img src="assets/img/acc2.png">
+                        <!-- <span>Image 2</span> -->
+                    </a>
+                    <a class="spotlight" href="assets/img/acc3.png">
+                        <img src="assets/img/acc3.png">
+                        <!-- <span>Image 3</span> -->
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section class="popup--section stock hide-popup">
+    <div class="section__background">
+        <div class="close-btn">
+            <img src="assets/img/close-icon.svg">
+        </div>
+        <div class="section__container">
+            <div class="popup">
+                <div class="spotlight-group">
+                    <a class="spotlight" href="assets/img/stock1.png">
+                        <img src="assets/img/stock1.png">
+                        <!-- <span>Image 1</span> -->
+                    </a>
+                    <a class="spotlight" href="assets/img/stock2.png">
+                        <img src="assets/img/stock2.png">
+                        <!-- <span>Image 2</span> -->
+                    </a>
+                    <a class="spotlight" href="assets/img/stock3.png">
+                        <img src="assets/img/stock3.png">
+                        <!-- <span>Image 3</span> -->
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="popup--section sales hide-popup">
+    <div class="section__background">
+        <div class="close-btn">
+            <img src="assets/img/close-icon.svg">
+        </div>
+        <div class="section__container">
+            <div class="popup">
+                <div class="spotlight-group">
+                    <a class="spotlight" href="assets/img/sales1.png">
+                        <img src="assets/img/sales1.png">
+                        <!-- <span>Image 1</span> -->
+                    </a>
+                    <a class="spotlight" href="assets/img/sales2.png">
+                        <img src="assets/img/sales2.png">
+                        <!-- <span>Image 2</span> -->
+                    </a>
+                    <a class="spotlight" href="assets/img/sales3.png">
+                        <img src="assets/img/sales3.png">
+                        <!-- <span>Image 3</span> -->
+                    </a>
+
                 </div>
             </div>
         </div>

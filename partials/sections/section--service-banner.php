@@ -13,12 +13,18 @@
                 </div>
             </div>
             <div class="service-banner">
-                <h3>Let’s Work Together To Grow Your Business</h3>
-                <p> 
-                    Maxwell's equations—the foundation of classical electromagnetism—describe light as a wave that moves with a characteristic velocity. 
-                    The modern view is that light needs no medium of transmission, but Maxwell and his contemporaries 
-                </p>
-                <a href="contact-us.php" class="button  button--gradient">Let’s Contact</a>
+                <h3 class="eng-text">Let’s Work Together To Grow Your Business</h3>
+                <h3 class="french-text">Travaillons ensemble pour développer votre entreprise</h3>
+                <!-- <p>
+                    Maxwell's equations—the foundation of classical electromagnetism—describe light as a wave that moves
+                    with a characteristic velocity.
+                    The modern view is that light needs no medium of transmission, but Maxwell and his contemporaries
+                </p> -->
+                <a href="contact-us.php" class="button  button--gradient eng-text">Let’s Contact</a>
+                <a href="contact-us.php" class="button  button--gradient french-text">
+                    Prenons contact
+
+                </a>
                 <div class="service-banner__layer-img4">
                     <img src="assets/img/service-banner-layer4.svg" alt="">
                 </div>

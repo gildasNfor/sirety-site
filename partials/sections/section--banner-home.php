@@ -10,10 +10,12 @@
             <div class="home-banner">
                 <div class="home-banner__text eng-text">
                     <h1>Your fixed partner for innovative
-                        <span class="gradient-color">and suitable Sofware solutions<img src="assets/img/heading-img.svg" alt=""></span>
+                        <span class="gradient-color">and suitable Sofware solutions<img src="assets/img/heading-img.svg"
+                                alt=""></span>
                     </h1>
                     <p>
-                        We develop for our customers innovative, robust and competitive Software solutions in various types of technologies. 
+                        We develop for our customers innovative, robust and competitive Software solutions in various
+                        types of technologies.
                     </p>
                     <div class="buttons-holder">
                         <a href="services.php" class="button button--gradient">Services</a>
@@ -22,10 +24,12 @@
                 </div>
                 <div class="home-banner__text germany-text">
                     <h1>Ihr fester Partner für
-                        <span class="gradient-color">innovative und passende Sofwarelösungen.<img src="assets/img/heading-img.svg" alt=""></span>
+                        <span class="gradient-color">innovative und passende Sofwarelösungen.<img
+                                src="assets/img/heading-img.svg" alt=""></span>
                     </h1>
                     <p>
-                        Wir entwickeln für unsere Kunden innovative, robuste und wettbewerbsfähige Softwarelösungen in verschiedenen Technologien. 
+                        Wir entwickeln für unsere Kunden innovative, robuste und wettbewerbsfähige Softwarelösungen in
+                        verschiedenen Technologien.
                     </p>
                     <div class="buttons-holder">
                         <a href="services.php" class="button button--gradient">Dienstleistungen</a>
@@ -33,11 +37,13 @@
                     </div>
                 </div>
                 <div class="home-banner__text french-text">
-                    <h1>Votrepartenaire fixe pour
-                        <span class="gradient-color">des solutions logiciellesinnovantesetadaptées.<img src="assets/img/heading-img.svg" alt=""></span>
+                    <h1>Votre partenaire fixe pour
+                        <span class="gradient-color">des solutions logicielles innovantes et adaptées.<img
+                                src="assets/img/heading-img.svg" alt=""></span>
                     </h1>
                     <p>
-                        Nous développons pour nos clients des solutions logiciellesinnovantes, robustesetcompétitivesdansdifférents types de technologies. 
+                        Nous développons pour nos clients des solutions logicielles innovantes,
+                        robustes et compétitives dans différents types de technologies.
                     </p>
                     <div class="buttons-holder">
                         <a href="services.php" class="button button--gradient">Prestations de service</a>

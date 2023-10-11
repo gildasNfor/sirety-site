@@ -7418,7 +7418,7 @@ header {
   justify-content: space-between;
   width: 100%;
   max-width: 1640px;
-  padding: 30px 106px;
+  padding: 30px 90px;
   margin: 0 auto; }
   @media (max-width: 78.8025em) {
     .navbar {
@@ -7656,9 +7656,12 @@ header {
     .navbar__lng .lng__active {
       opacity: 1;
       visibility: visible; }
+<<<<<<< HEAD
     .navbar__lng.onload-hide {
       opacity: 0;
       visibility: hidden; }
+=======
+>>>>>>> 3484ef19cf1db7b862efa6f50b85b938faf64c1b
   .navbar__login {
     display: flex; }
     @media (max-width: 64.0525em) {

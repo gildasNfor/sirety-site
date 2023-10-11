@@ -6,23 +6,24 @@
                 <h3 class="germany-text">Ihr fester Partner für innovative und passende Sofwarelösungen!!!</h3>
                 <h3 class="french-text">Votrepartenaire fixe pour des solutions logiciellesinnovantesetadaptées!!!</h3> -->
                 <p class="eng-text">
-                    "We think not only how the requirements defined to us has been thought, 
+                    "We think not only how the requirements defined to us has been thought,
                     but we also think how the end user of our solutions thinks"
                 </p>
                 <p class="eng-text">Please visit our own ERP modules for Hotels, Restaurants, etc...</p>
                 <p class="germany-text">
-                    "Wir denken nicht nur, wie die an uns gestellten Anforderungen gedacht sind, 
-                     sondern wir denken auch, wie der Endanwender unserer Lösungen denkt"
+                    "Wir denken nicht nur, wie die an uns gestellten Anforderungen gedacht sind,
+                    sondern wir denken auch, wie der Endanwender unserer Lösungen denkt"
                 </p>
                 <p class="germany-text">Bitte besuchen Sie unsere eigenen ERP-Module für Hotels, Restaurants, etc...</p>
                 <p class="french-text">
-                    "Nous ne pensons pas seulement à la manièredont les requirements qui nous ontétédéfinisontétépensés, 
-                     mais nous pensonsaussi à la manièredontl'utilisateur final de nos solutions pense"
+                    "Nous ne pensons pas seulement à la manière dont les requirements qui nous ont été défini sont été
+                    pensés,
+                    mais nous pensons aussi à la manière dont l'utilisateur final de nos solutions pense"
                 </p>
-                <p class="french-text">Visiteznospropres modules ERP pour Hôtels, Restaurants, etc...</p>
+                <p class="french-text">Visitez nos propres modules ERP pour Hôtels, Restaurants, etc...</p>
                 <div class="column-with-icon__holder">
                     <div class="column-with-icon__view-product">
-                        <a href="products.php">View All Products 
+                        <a href="products.php">View All Products
                             <img src="assets/img/arrow-left-stroke.svg" alt="">
                             <img class="hover-img" src="assets/img/arrow-left-stroke-hover.svg" alt="">
                         </a>
